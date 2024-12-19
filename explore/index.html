@@ -1,0 +1,97 @@
+<!DOCTYPE html><!--Author: Pranav Rajpurkar 2016-->
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>DecodingTrust Benchmark</title>
+    <meta name="description" content="DecodingTrust: Comprehensive Assessment of Trustworthiness in GPT Models">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta property="og:image" content="/logo.png">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔍</text></svg>">
+    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔍</text></svg>">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/layout.css">
+    <link rel="stylesheet" href="/stylesheets/explore.css">
+    <script src="/javascripts/analytics.js"></script>
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top" id="topNavbar" role="navigation">
+    <div class="container clearfix" id="navContainer">
+        <div class="rightNav">
+            <div class="collapseDiv">
+                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar"><span
+                        class="glyphicon glyphicon-menu-hamburger"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="https://github.com/AI-secure/DecodingTrust">GitHub</a></li>
+                    <li><a href="https://arxiv.org/abs//2306.11698">Paper</a></li>
+                    <!--                    <li><a href="https://arxiv.org/abs/2111.02840">Paper</a></li>-->
+                    <li><a href="/explore">Explore</a></li>
+                    <li><a href="/demo">Demo</a></li>
+                    <li><a href="/leaderboard">Leaderboard</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="leftNav">
+            <div class="brandDiv"><a class="navbar-brand" href="/">DecodingTrust</a></div>
+        </div>
+    </div>
+</div>
+<div class="cover" id="topCover">
+    <div class="container">
+        <div class="row">
+            <!--            <div class="col-md-4">-->
+            <!--                <img src="logo.png" width="150" height="150" style="float:right;"/>-->
+            <!--            </div>-->
+            <!--            <div class="col-md-3">-->
+            <!--            </div>-->
+            <!--            <div class="col-md-2">-->
+            <!--                <img src="/logo.png" width="150" height="150"/>-->
+            <!--            </div>-->
+            <div class="col-md-12 text-center">
+                <h1 id="appTitle"><b>DecodingTrust</b></h1>
+                <h3 id="appSubtitle"> Comprehensive Assessment of Trustworthiness in GPT Models</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="cover">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-15"><h1>DecodingTrust</h1>
+                <div class="infoCard">
+
+                    <div class="infoBody"><h2>Overall Statistics</h2>
+<!--                        <iframe width="100%" height="800" frameborder="0" scrolling="no"-->
+<!--                                src="//plotly.com/~xcj/7.embed"></iframe>-->
+                        <div>
+                            <iframe src="https://decodingtrust-visualize-9027decc3365.herokuapp.com/" width="100%" height="800">
+<!--                            <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>-->
+<!--        <script src="https://cdn.plot.ly/plotly-2.2.0.min.js"></script>                <div id="c0df03b6-bea6-48b9-b9a9-9228087ac2b5" class="plotly-graph-div" style="height:800px; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("c0df03b6-bea6-48b9-b9a9-9228087ac2b5")) {                    Plotly.newPlot(                        "c0df03b6-bea6-48b9-b9a9-9228087ac2b5",                        [{"branchvalues":"total","customdata":[[43,387,430.0],[15,137,152.0],[7,65,72.0],[17,158,175.0],[36,304,340.0],[48,299,347.0],[42,378,420.0],[5,37,42.0],[19,136,155.0],[51,531,582.0],[85,462,547.0],[71,412,483.0],[91,453,544.0],[66,320,386.0],[62,168,230.0],[80,731,811.0],["(?)","(?)",467.6538895152198],["(?)","(?)",427.45873015873013],["(?)","(?)",443.9426523297491],["(?)","(?)",311.888],["(?)","(?)",199.80519480519482],["(?)","(?)",655.019132653061]],"customdatasrc":"xcj:46:a27c94","domain":{"x":[0,1],"y":[0,1]},"hovertemplate":"label=%{label}<br>total size=%{color}<extra></extra>","ids":["MNLI-MM/Human","QNLI/Human","QQP/Human","SST-2/Human","MNLI/Sentence","MNLI-MM/Sentence","QNLI/Sentence","QQP/Sentence","RTE/Sentence","SST-2/Sentence","MNLI/Word","MNLI-MM/Word","QNLI/Word","QQP/Word","RTE/Word","SST-2/Word","MNLI","MNLI-MM","QNLI","QQP","RTE","SST-2"],"idssrc":"xcj:46:17fefd","labels":["Human","Human","Human","Human","Sentence","Sentence","Sentence","Sentence","Sentence","Sentence","Word","Word","Word","Word","Word","Word","MNLI","MNLI-MM","QNLI","QQP","RTE","SST-2"],"labelssrc":"xcj:46:fe75d2","marker":{"coloraxis":"coloraxis","colors":[430,152,72,175,340,347,420,42,155,582,547,483,544,386,230,811,"887","1260","1116","500","385","1568"],"colorssrc":"xcj:46:17eaf2"},"meta":{"columnNames":{"customdata":"data.0.customdata","ids":"data.0.ids","labels":"data.0.labels","parents":"data.0.parents","values":"data.0.values"}},"name":"","parents":["MNLI-MM","QNLI","QQP","SST-2","MNLI","MNLI-MM","QNLI","QQP","RTE","SST-2","MNLI","MNLI-MM","QNLI","QQP","RTE","SST-2","","","","","",""],"parentssrc":"xcj:46:0a6b85","type":"sunburst","values":[430,152,72,175,340,347,420,42,155,582,547,483,544,386,230,811,887,1260,1116,500,385,1568],"valuessrc":"xcj:46:7a8c82"}],                        {"autosize":true,"coloraxis":{"cmid":357.25,"colorbar":{"title":{"text":"total size"}},"colorscale":[[0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1,"rgb(5,48,97)"]]},"legend":{"tracegroupgap":0},"margin":{"t":60},"template":{"data":{"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1,"#f0f921"]],"type":"contour"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1,"#f0f921"]],"type":"heatmap"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1,"#f0f921"]],"type":"heatmapgl"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1,"#f0f921"]],"type":"histogram2d"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1,"#f0f921"]],"type":"histogram2dcontour"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1,"#f0f921"]],"sequentialminus":[[0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"#E5ECF6","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2}}}},                        {"responsive": true}                    )                };                            </script>        </div>-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<nav class="navbar navbar-default navbar-static-bottom footer">
+    <div class="container clearfix">
+        <div class="rightNav">
+            <div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/">DecodingTrust</a></li>
+                    <li><a href="https://aisecure.github.io/">UIUC Secure Learning Lab</a></li>
+                    <li><a href="https://www.microsoft.com/en-us/research/">Microsoft Research</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

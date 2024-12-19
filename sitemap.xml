@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://adversarialglue.github.io/</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/explore/</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/instructions/</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/models/DeBERTa%20(single%20model).html</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/models/ALBERT%20(single%20model).html</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/models/T5%20(single%20model).html</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/models/SMART_RoBERTa%20(single%20model).html</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/models/FreeLB%20(single%20model).html</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/models/RoBERTa%20(single%20model).html</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/models/InfoBERT%20(single%20model).html</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/models/ELECTRA%20(single%20model).html</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/models/BERT%20(single%20model).html</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/models/SMART_BERT%20(single%20model).html</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/explore/SST-2.html</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/explore/QQP.html</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/explore/MNLI.html</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/explore/MNLI-MM.html</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/explore/QNLI.html</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/explore/RTE.html</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/instructions/SST-2-train.html</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/instructions/SST-2-test.html</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/instructions/QQP-train.html</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/instructions/MNLI-train.html</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/instructions/QNLI-train.html</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://adversarialglue.github.io/instructions/RTE-train.html</loc>
+  <lastmod>2021-10-14T07:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

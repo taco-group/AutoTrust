@@ -1,0 +1,676 @@
+<meta content="width=device-width,initial-scale=1" name="viewport"/><!-- Image A/B Layout -->
+<section class="container" id="ImageAorB"><!-- Instructions -->
+    <div class="row">
+        <div class="col-xs-12 col-md-12">
+            <div class="panel panel-primary" style="padding-left: 20px; padding-right: 20px">
+				<h3>
+                    Semantically Equivalence
+                </h3>
+                <h4>
+                    Background
+                </h4>
+                <ul>
+                     <li>
+                        If you can work on this task, it means that you are in our qualified list.
+                    </li>
+                    <li>
+                        <b>Congratulations!</b> You have successfully passed the training phase, which means you well understood the task. Thanks for your expertise!
+                    </li>
+                    <li>
+                        However, please <b>keep your expertise and be careful</b>. We have an automatic detector to estimate your annotation accuracy. <b>If your estimated accuracy is too low, you might be disqualified from working on this task, and your previous work might be rejected. If your estimated accuracy is high, you might be awarded with an additional bonus.</b>
+                    </li>
+                </ul>
+                <h4>
+                    Task Discription
+                </h4>
+                <ul>
+                    <li>
+                        You will be given 10 pairs of questions ("question 1" and "question 2").
+                    </li>
+                    <li>
+                        Your job is to figure out <strong>if these two questions are equivalent and are asking the same thing</strong>:
+                        <ul>
+                            <li>
+                                Choose <strong>same</strong> if both questions would answered in the same way. For example,
+                                <ul>
+                                    <li>Example 1:</li>
+                            <ul>
+                                    <li>
+                                        <strong>Question 1</strong>: How do I lose weight fast?
+                                    </li>
+                                    <li>
+                                        <strong>Question 2</strong>: What is the best way to reduce weight fast?
+                                    </li>
+                            </ul>
+                            <li> Example 2: </li>
+                            <ul>
+                                 <li>
+                                        <strong>Sentence 1</strong>: What are the best tips for outlining/planning a novel?
+                                    </li>
+                                    <li>
+                                        <strong>Sentence 2</strong>: How do I best outline my novel?
+                                    </li>
+
+                                </ul>
+                                     <li> Example 3: </li>
+                            <ul>
+                                <li>
+                                    <strong>Sentence 1</strong>: Is it possible to choose your dreams?
+                                </li>
+                                <li>
+                                    <strong>Sentence 2</strong>: How can I manipulate my dreams?
+                                </li>
+                            </ul>
+                            </li>
+                            </ul>
+                            <li>
+                                Choose <strong>not same</strong> if answers to the two questions could differ in any substantial way. Examples:
+                                <ul>
+<li>Example 1:</li>
+                            <ul>
+                               <li>
+    <strong>Question 1</strong>: How is air traffic controlled?
+</li>
+<li>
+    <strong>Question 2</strong>: How do you become an air traffic controller?
+</li>
+                            </ul>
+                            <li> Example 2: </li>
+                            <ul>
+                                <li>
+                                    <strong>Sentence 1</strong>: Who is your favorite Prison Break character?
+                                </li>
+                                <li>
+                                    <strong>Sentence 2</strong>: Who is the best looking actor in Prison Break?
+                                </li>
+                            </ul>
+                            <li> Example 3: </li>
+                            <ul>
+                                <li>
+                                    <strong>Sentence 1</strong>: If you’re 15 years old and have an IQ of 136 is that normal?
+                                </li>
+                                <li>
+                                    <strong>Sentence 2</strong>: What is the normal IQ of a 15 year old?
+                                </li>
+                            </ul>
+                                </ul>
+                            </li>
+                        </ul>
+                                </ul>
+                    </li>
+             <li> You do not have to worry about whether the writing style is maintained between the questions and the prompt.</li>
+                    <li>Thank you for your help!</li>
+                  <li>If you have more questions, please refer to <a
+                            href="https://docs.google.com/document/d/1MikHUdyvcsrPqE8x-N-gHaLUNAbA6-Uvy-iA5gkStoc/edit?usp=sharing">FAQ</a> here.
+                    </li>
+                    <li>Feel free to contact us via email <a href="mailto:boxinw2@illinois.edu">boxinw2@illinois.edu</a> if you have further questions. </li>
+                </ul>
+                <!-- WARNING: the ids "collapseTrigger" and "instructionBody" are being used to enable expand/collapse feature -->
+				<a
+                    class="panel-heading" href="javascript:void(0);" id="collapseTrigger">
+                For each text, you have 120 seconds to view the sentences, then
+                unlimited time to make the decision.
+                <br>
+                <span class="collapse-text">(Click to expand)</span> </a>
+                <div class="panel-body" id="instructionBody"><!-- Add instruction body content here -->
+                    <p>Good luck!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Instructions -->
+
+    <script type="text/javascript">
+
+
+        // alert("Hello! I am an alert boxtop!!");
+        // document.getElementById("button0").textContent = '123';
+
+        // $('#0').hide()
+        // init(total_number);
+        // show_item(0);
+        total_number = 10;
+
+        function button_on_click(index) {
+            if ((document.getElementById('itemA' + index).checked || document.getElementById('itemB' + index).checked)) {
+
+
+                if (index + 1 < total_number)
+                    show_item(index + 1);
+                else
+                    document.getElementById('confirm-reminder').textContent = 'You have completed this HIT, please click submit below';
+            } else {
+                document.getElementById('confirm-reminder').textContent = 'Please select an option before confirming';
+            }
+        }
+
+        function show_item(index) {
+            document.getElementById('confirm-reminder').textContent = '';
+            $('#' + (index - 1)).hide();
+
+
+            document.getElementById("count").textContent = (index + 1) + '/' + total_number
+            $('#' + index).show();
+            // document.getElementById('')
+            var timeleft = 120;
+            var Timer = setInterval(function () {
+                timeleft--;
+                console.log(timeleft);
+                document.getElementById("countdowntimer" + index).textContent = timeleft;
+
+                if (timeleft <= 0) {
+                    // $('#'+index).hide();
+                    $('#' + index + 'text').hide();
+                    //$('#' + index + 'B').hide();
+                    clearInterval(Timer);
+                }
+            }, 1000);
+        }
+
+        function init(total_number) {
+            for (i = 0; i < total_number; i++) {
+                // console.log(i)
+                $('#' + i).hide()
+            }
+        }
+
+        function start() {
+            $('#start_button').hide();
+            show_item(0);
+        }
+
+
+    </script>
+    <p><span id="count"> 0/10 </span></p>
+
+    <center>
+        <button id="start_button" onclick="start()" type="button">Start</button>
+    </center>
+
+    <div id="0" class="image-row">
+        <p>The sentence pair will disappear after <span id="countdowntimer0"> 120 </span> seconds</p>
+        <br>
+        <p  id="0text" alt="text">
+            <Strong>Question 1: </Strong> ${adv_premise_0} <br/>
+            <Strong>Question 2: </Strong> ${adv_hypothesis_0} <br/>
+        </p>
+        <div class="col-xs-12 col-sm-6 col-md-6">
+
+            <div class="form-group">
+                <label class="btn btn-default img-btn">
+                    <span class="clearfix img-label">
+                        <input autocomplete="off" class="pull-left img-options" id="itemA0" name="choice0" type="radio" value="0"/>
+                  <span class="pull-left">
+                    <strong>Not Same</strong>
+                </span>
+                    </span>
+                </label>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="form-group"><label class="btn btn-default img-btn"><span class="clearfix img-label"><input
+                    autocomplete="off" class="pull-left img-options" id="itemB0" name="choice0" required="" type="radio"
+                    value="1"/> <span class="pull-left"><strong>Same</strong></span> </span> </label></div>
+        </div>
+
+        <center>
+            <button id="button0" onclick="button_on_click(0)" type="button">Confirm, ready for next pair</button>
+        </center>
+    </div>
+
+
+    <div id="1" class="image-row">
+        <p>The sentence pair will disappear after <span id="countdowntimer1"> 120 </span> seconds</p>
+        <br>
+        <p  id="1text" alt="text">
+            <Strong>Question 1: </Strong> ${adv_premise_1} <br/>
+            <Strong>Question 2: </Strong> ${adv_hypothesis_1} <br/>
+        </p>
+        <div class="col-xs-12 col-sm-6 col-md-6">
+
+            <div class="form-group">
+                <label class="btn btn-default img-btn">
+                    <span class="clearfix img-label">
+                        <input autocomplete="off" class="pull-left img-options" id="itemA1" name="choice1" type="radio" value="0"/>
+                  <span class="pull-left">
+                    <strong>Not Same</strong>
+                </span>
+                    </span>
+                </label>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="form-group"><label class="btn btn-default img-btn"><span class="clearfix img-label"><input
+                    autocomplete="off" class="pull-left img-options" id="itemB1" name="choice1" required="" type="radio"
+                    value="1"/> <span class="pull-left"><strong>Same</strong></span> </span> </label></div>
+        </div>
+
+        <center>
+            <button id="button1" onclick="button_on_click(1)" type="button">Confirm, ready for next pair</button>
+        </center>
+    </div>
+
+
+    <div id="2" class="image-row">
+        <p>The sentence pair will disappear after <span id="countdowntimer2"> 120 </span> seconds</p>
+        <br>
+        <p  id="2text" alt="text">
+            <Strong>Question 1: </Strong> ${adv_premise_2} <br/>
+            <Strong>Question 2: </Strong> ${adv_hypothesis_2} <br/>
+        </p>
+        <div class="col-xs-12 col-sm-6 col-md-6">
+
+            <div class="form-group">
+                <label class="btn btn-default img-btn">
+                    <span class="clearfix img-label">
+                        <input autocomplete="off" class="pull-left img-options" id="itemA2" name="choice2" type="radio" value="0"/>
+                  <span class="pull-left">
+                    <strong>Not Same</strong>
+                </span>
+                    </span>
+                </label>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="form-group"><label class="btn btn-default img-btn"><span class="clearfix img-label"><input
+                    autocomplete="off" class="pull-left img-options" id="itemB2" name="choice2" required="" type="radio"
+                    value="1"/> <span class="pull-left"><strong>Same</strong></span> </span> </label></div>
+        </div>
+
+        <center>
+            <button id="button2" onclick="button_on_click(2)" type="button">Confirm, ready for next pair</button>
+        </center>
+    </div>
+
+
+    <div id="3" class="image-row">
+        <p>The sentence pair will disappear after <span id="countdowntimer3"> 120 </span> seconds</p>
+        <br>
+        <p  id="3text" alt="text">
+            <Strong>Question 1: </Strong> ${adv_premise_3} <br/>
+            <Strong>Question 2: </Strong> ${adv_hypothesis_3} <br/>
+        </p>
+        <div class="col-xs-12 col-sm-6 col-md-6">
+
+            <div class="form-group">
+                <label class="btn btn-default img-btn">
+                    <span class="clearfix img-label">
+                        <input autocomplete="off" class="pull-left img-options" id="itemA3" name="choice3" type="radio" value="0"/>
+                  <span class="pull-left">
+                    <strong>Not Same</strong>
+                </span>
+                    </span>
+                </label>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="form-group"><label class="btn btn-default img-btn"><span class="clearfix img-label"><input
+                    autocomplete="off" class="pull-left img-options" id="itemB3" name="choice3" required="" type="radio"
+                    value="1"/> <span class="pull-left"><strong>Same</strong></span> </span> </label></div>
+        </div>
+
+        <center>
+            <button id="button3" onclick="button_on_click(3)" type="button">Confirm, ready for next pair</button>
+        </center>
+    </div>
+
+
+    <div id="4" class="image-row">
+        <p>The sentence pair will disappear after <span id="countdowntimer4"> 120 </span> seconds</p>
+        <br>
+        <p  id="4text" alt="text">
+            <Strong>Question 1: </Strong> ${adv_premise_4} <br/>
+            <Strong>Question 2: </Strong> ${adv_hypothesis_4} <br/>
+        </p>
+        <div class="col-xs-12 col-sm-6 col-md-6">
+
+            <div class="form-group">
+                <label class="btn btn-default img-btn">
+                    <span class="clearfix img-label">
+                        <input autocomplete="off" class="pull-left img-options" id="itemA4" name="choice4" type="radio" value="0"/>
+                  <span class="pull-left">
+                    <strong>Not Same</strong>
+                </span>
+                    </span>
+                </label>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="form-group"><label class="btn btn-default img-btn"><span class="clearfix img-label"><input
+                    autocomplete="off" class="pull-left img-options" id="itemB4" name="choice4" required="" type="radio"
+                    value="1"/> <span class="pull-left"><strong>Same</strong></span> </span> </label></div>
+        </div>
+
+        <center>
+            <button id="button4" onclick="button_on_click(4)" type="button">Confirm, ready for next pair</button>
+        </center>
+    </div>
+
+
+    <div id="5" class="image-row">
+        <p>The sentence pair will disappear after <span id="countdowntimer5"> 120 </span> seconds</p>
+        <br>
+        <p  id="5text" alt="text">
+            <Strong>Question 1: </Strong> ${adv_premise_5} <br/>
+            <Strong>Question 2: </Strong> ${adv_hypothesis_5} <br/>
+        </p>
+        <div class="col-xs-12 col-sm-6 col-md-6">
+
+            <div class="form-group">
+                <label class="btn btn-default img-btn">
+                    <span class="clearfix img-label">
+                        <input autocomplete="off" class="pull-left img-options" id="itemA5" name="choice5" type="radio" value="0"/>
+                  <span class="pull-left">
+                    <strong>Not Same</strong>
+                </span>
+                    </span>
+                </label>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="form-group"><label class="btn btn-default img-btn"><span class="clearfix img-label"><input
+                    autocomplete="off" class="pull-left img-options" id="itemB5" name="choice5" required="" type="radio"
+                    value="1"/> <span class="pull-left"><strong>Same</strong></span> </span> </label></div>
+        </div>
+
+        <center>
+            <button id="button5" onclick="button_on_click(5)" type="button">Confirm, ready for next pair</button>
+        </center>
+    </div>
+
+
+    <div id="6" class="image-row">
+        <p>The sentence pair will disappear after <span id="countdowntimer6"> 120 </span> seconds</p>
+        <br>
+        <p  id="6text" alt="text">
+            <Strong>Question 1: </Strong> ${adv_premise_6} <br/>
+            <Strong>Question 2: </Strong> ${adv_hypothesis_6} <br/>
+        </p>
+        <div class="col-xs-12 col-sm-6 col-md-6">
+
+            <div class="form-group">
+                <label class="btn btn-default img-btn">
+                    <span class="clearfix img-label">
+                        <input autocomplete="off" class="pull-left img-options" id="itemA6" name="choice6" type="radio" value="0"/>
+                  <span class="pull-left">
+                    <strong>Not Same</strong>
+                </span>
+                    </span>
+                </label>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="form-group"><label class="btn btn-default img-btn"><span class="clearfix img-label"><input
+                    autocomplete="off" class="pull-left img-options" id="itemB6" name="choice6" required="" type="radio"
+                    value="1"/> <span class="pull-left"><strong>Same</strong></span> </span> </label></div>
+        </div>
+
+        <center>
+            <button id="button6" onclick="button_on_click(6)" type="button">Confirm, ready for next pair</button>
+        </center>
+    </div>
+
+
+    <div id="7" class="image-row">
+        <p>The sentence pair will disappear after <span id="countdowntimer7"> 120 </span> seconds</p>
+        <br>
+        <p  id="7text" alt="text">
+            <Strong>Question 1: </Strong> ${adv_premise_7} <br/>
+            <Strong>Question 2: </Strong> ${adv_hypothesis_7} <br/>
+        </p>
+        <div class="col-xs-12 col-sm-6 col-md-6">
+
+            <div class="form-group">
+                <label class="btn btn-default img-btn">
+                    <span class="clearfix img-label">
+                        <input autocomplete="off" class="pull-left img-options" id="itemA7" name="choice7" type="radio" value="0"/>
+                  <span class="pull-left">
+                    <strong>Not Same</strong>
+                </span>
+                    </span>
+                </label>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="form-group"><label class="btn btn-default img-btn"><span class="clearfix img-label"><input
+                    autocomplete="off" class="pull-left img-options" id="itemB7" name="choice7" required="" type="radio"
+                    value="1"/> <span class="pull-left"><strong>Same</strong></span> </span> </label></div>
+        </div>
+
+        <center>
+            <button id="button7" onclick="button_on_click(7)" type="button">Confirm, ready for next pair</button>
+        </center>
+    </div>
+
+
+    <div id="8" class="image-row">
+        <p>The sentence pair will disappear after <span id="countdowntimer8"> 120 </span> seconds</p>
+        <br>
+        <p  id="8text" alt="text">
+            <Strong>Question 1: </Strong> ${adv_premise_8} <br/>
+            <Strong>Question 2: </Strong> ${adv_hypothesis_8} <br/>
+        </p>
+        <div class="col-xs-12 col-sm-6 col-md-6">
+
+            <div class="form-group">
+                <label class="btn btn-default img-btn">
+                    <span class="clearfix img-label">
+                        <input autocomplete="off" class="pull-left img-options" id="itemA8" name="choice8" type="radio" value="0"/>
+                  <span class="pull-left">
+                    <strong>Not Same</strong>
+                </span>
+                    </span>
+                </label>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="form-group"><label class="btn btn-default img-btn"><span class="clearfix img-label"><input
+                    autocomplete="off" class="pull-left img-options" id="itemB8" name="choice8" required="" type="radio"
+                    value="1"/> <span class="pull-left"><strong>Same</strong></span> </span> </label></div>
+        </div>
+
+        <center>
+            <button id="button8" onclick="button_on_click(8)" type="button">Confirm, ready for next pair</button>
+        </center>
+    </div>
+
+
+    <div id="9" class="image-row">
+        <p>The sentence pair will disappear after <span id="countdowntimer9"> 120 </span> seconds</p>
+        <br>
+        <p  id="9text" alt="text">
+            <Strong>Question 1: </Strong> ${adv_premise_9} <br/>
+            <Strong>Question 2: </Strong> ${adv_hypothesis_9} <br/>
+        </p>
+        <div class="col-xs-12 col-sm-6 col-md-6">
+
+            <div class="form-group">
+                <label class="btn btn-default img-btn">
+                    <span class="clearfix img-label">
+                        <input autocomplete="off" class="pull-left img-options" id="itemA9" name="choice9" type="radio" value="0"/>
+                  <span class="pull-left">
+                    <strong>Not Same</strong>
+                </span>
+                    </span>
+                </label>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="form-group"><label class="btn btn-default img-btn"><span class="clearfix img-label"><input
+                    autocomplete="off" class="pull-left img-options" id="itemB9" name="choice9" required="" type="radio"
+                    value="1"/> <span class="pull-left"><strong>Same</strong></span> </span> </label></div>
+        </div>
+        <center>
+            <button id="button9" onclick="button_on_click(9)" type="button">Confirm, ready for next pair</button>
+        </center>
+    </div>
+
+    <br>
+    <p><span id="confirm-reminder"> When you are ready, click Start to start. Remember the sentence will only show up for 120 seconds.</span>
+
+    </p>
+</section>
+<!-- End Image A/B Layout --><!-- Please note that Bootstrap CSS/JS and JQuery are 3rd party libraries that may update their url/code at any time. Amazon Mechanical Turk (MTurk) is including these libraries as a default option for you, but is not responsible for any changes to the external libraries --><!-- External CSS references -->
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"
+      integrity="sha384-IS73LIqjtYesmURkDE9MXKbXqYA8rvKEp/ghicjem7Vc3mGRdQRptJSz60tvrB6+"
+      rel="stylesheet"/><!-- Open internal style sheet -->
+<style type="text/css">#collapseTrigger {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+#submitButton {
+    white-space: normal;
+}
+
+input.img-options {
+    margin: 3px 10px 5px 8px;
+}
+
+.img-check {
+    padding: 0;
+}
+
+.img-label {
+    padding: 6px 6px 0 6px;
+    min-width: 300px;
+    display: block;
+}
+
+.img-wrap {
+    background: transparent;
+    padding: 6px 12px;
+    display: block;
+}
+
+.img-background {
+    background: #5cb85c;
+}
+
+.img-btn {
+    padding: 0;
+    display: block;
+}
+
+.image-row {
+    /*display: none;*/
+    width: 40%;
+    margin: 0 auto;
+}
+</style>
+<!-- Close internal style sheet --><!-- External JS references -->
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"
+        integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"
+        integrity="sha384-s1ITto93iSMDxlp/79qhWHi+LsIi9Gx6yL+cOKDuymvihkfol83TYbLbOw+W/wv4"
+        crossorigin="anonymous"></script><!-- Open internal javascript -->
+<script>
+    $(document).ready(function (e) {
+        // Instructions expand/collapse
+        var content = $('#instructionBody');
+        var trigger = $('#collapseTrigger');
+        content.hide();
+        $('.collapse-text').text('(Click to expand)');
+        trigger.click(function () {
+            content.toggle();
+            var isVisible = content.is(':visible');
+            if (isVisible) {
+                $('.collapse-text').text('(Click to collapse)');
+            } else {
+                $('.collapse-text').text('(Click to expand)');
+            }
+        });
+        // end expand/collapse
+        // Highlight selection
+        var imageBackgroundSelector = ".img-wrap";
+        var imageBackgroundElement = $(imageBackgroundSelector);
+        $("#ImageAorB input:radio").click(function () {
+            imageBackgroundElement.removeClass("img-background");
+            if ($(this).is(':checked')) {
+                $(this).parent().siblings(imageBackgroundSelector).addClass("img-background");
+            } else {
+                $(this).parent().siblings(imageBackgroundSelector).remove("img-background");
+            }
+        });
+
+
+        // alert("Hello! I am an alert boxbot!!");
+        init(total_number);
+        // $('#0').show();
+
+        // function show(index) {
+        //   document.getElementById('confirm-reminder').textContent = '';
+        //   // document.getElementById('countdowntimer0').textContent = '';
+        //   alert('hehe');
+        //   // $('#'+(index-1)).hide();
+
+
+        //   // document.getElementById("count").textContent = (index+1) + '/' + total_number
+        //   $('#'+index).show();
+        // }
+        // function show(index) {
+        //   document.getElementById('confirm-reminder').textContent = '';
+        //   $('#'+(index-1)).hide();
+
+
+        //   document.getElementById("count").textContent = (index+1) + '/' + total_number
+        //   $('#'+index).show();
+        //   var timeleft = 5;
+        //   var Timer = setInterval(function(){
+        //   timeleft--;
+        //   console.log(timeleft);
+        //   document.getElementById("countdowntimer0").textContent = timeleft;
+
+        //   if(timeleft <= 0){
+        //     // $('#'+index).hide();
+        //     $('#'+index+'A').hide();
+        //     $('#'+index+'B').hide();
+        //     clearInterval(Timer);
+        //   }
+        // },1000);
+
+        // }
+        // show_item(0);
+
+        // document.getElementById("0").visibility = 'hidden';
+        // document.getElementById("button0").textContent = '123';
+
+        // end highlight selection
+
+
+        // function show_all(total_number){
+        //   for (i = 0; i < total_number; i++){
+        //     show_item(i);
+        //     console.log(i);
+        //   }
+        // }
+
+
+        // document.getElementById('button'+(total_number-1)).innerHTML = 'Confirm, please click submit below';
+        // show_item(0);
+        // console.log(document.getElementById('itemA0').checked)
+        // for (i = 0; i < total_number; i++){
+        //   console.log(i);
+        //   document.getElementById("button"+i).onclick = function() {
+        //     console.log(i + ' button has been clicked');
+        //     if(document.getElementById('itemA'+i).checked || document.getElementById('itemB'+i).checked) {
+        //       show_item(i+1);
+        //     }
+        //     else{
+        //       document.getElementById('confirm-reminder').textContent = 'Please select an option before confirming';
+        //     }
+        //  }
+        // }
+    });
+</script><!-- Close internal javascript

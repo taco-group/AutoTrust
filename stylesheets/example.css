@@ -1,0 +1,217 @@
+fieldset {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  border: 2px solid #062964;
+}
+.btn:hover {
+  color: #4caf50;
+  text-decoration: underline;
+}
+/* Entity span */
+.entity {
+  font-size: 12px;
+  background-color: inherit;
+  padding: 0px 0px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: baseline;
+  font-weight: bold;
+}
+@media (min-width: 600px) {
+  .entity {
+    font-size: large;
+  }
+}
+.entity.active {
+  background-color: #4caf50;
+  color: #fff;
+}
+.show-answer {
+  border: 2px solid #04af58;
+}
+#answer {
+  display: none;
+}
+.highlights {
+  padding: 0 18px;
+}
+.placeholder-init {
+  font-size: 12px;
+  font-weight: bold;
+  color: #cb4b16;
+}
+@media (min-width: 600px) {
+  .placeholder-init {
+    font-size: large;
+  }
+}
+.placeholder {
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+@media (min-width: 600px) {
+  .placeholder {
+    font-size: large;
+  }
+}
+#hint {
+  cursor: pointer;
+  font-size: large;
+  color: #666;
+  padding-left: 5px;
+}
+@media (min-width: 600px) {
+  #hint {
+    font-size: x-large;
+  }
+}
+#next-example {
+  padding-right: 5px;
+  text-decoration: underline;
+  text-align: right;
+  font-size: large;
+}
+@media (min-width: 600px) {
+  #next-example {
+    font-size: x-large;
+  }
+}
+.original-text {
+  font-size: 12px;
+  background-color: inherit;
+  padding: 0px 0px;
+  display: inline-block;
+  vertical-align: baseline;
+  font-weight: bold;
+  color: #04af58;
+}
+@media (min-width: 600px) {
+  .original-text {
+    font-size: large;
+  }
+}
+.adversarial-text {
+  font-size: 12px;
+  background-color: inherit;
+  padding: 0px 0px;
+  display: inline-block;
+  vertical-align: baseline;
+  font-weight: bold;
+  color: #FF616D;
+}
+@media (min-width: 600px) {
+  .adversarial-text {
+    font-size: large;
+  }
+}
+
+
+
+#benign-title0 {
+  font-size: large;
+  margin-bottom: -5px;
+  border-bottom: unset;
+  width: unset;
+}
+#benign-title1 {
+  font-size: large;
+  margin-bottom: -5px;
+  border-bottom: unset;
+  width: unset;
+}
+#benign-title2 {
+  font-size: large;
+  margin-bottom: -5px;
+  border-bottom: unset;
+  width: unset;
+}
+@media (min-width: 600px) {
+  #benign-title0 {
+    font-size: large;
+  }
+  #benign-title1 {
+    font-size: large;
+  }
+  #benign-title2 {
+    font-size: large;
+  }
+}
+#adversarial-title0 {
+  margin-bottom: -5px;
+  border-bottom: unset;
+  width: unset;
+  font-size: large;
+}
+#adversarial-title1 {
+  margin-bottom: -5px;
+  border-bottom: unset;
+  width: unset;
+  font-size: large;
+}
+#adversarial-title2 {
+  margin-bottom: -5px;
+  border-bottom: unset;
+  width: unset;
+  font-size: large;
+}
+@media (min-width: 600px) {
+  #adversarial-title0 {
+    font-size: large;
+  }
+  #adversarial-title1 {
+    font-size: large;
+  }
+  #adversarial-title2 {
+    font-size: large;
+  }
+}
+#benign-sentence0 {
+  text-align: justify;
+  font-size: 12px;
+}
+#benign-sentence1 {
+  text-align: justify;
+  font-size: 12px;
+}
+#benign-sentence2 {
+  text-align: justify;
+  font-size: 12px;
+}
+@media (min-width: 600px) {
+  #benign-sentence0 {
+    font-size: large;
+  }
+  #benign-sentence1 {
+    font-size: large;
+  }
+  #benign-sentence2 {
+    font-size: large;
+  }
+}
+#adversarial-sentence0 {
+  font-size: 12px;
+  text-align: justify;
+}
+#adversarial-sentence1 {
+  font-size: 12px;
+  text-align: justify;
+}
+#adversarial-sentence2 {
+  font-size: 12px;
+  text-align: justify;
+}
+@media (min-width: 600px) {
+  #adversarial-sentence0 {
+    font-size: large;
+  }
+  #adversarial-sentence1 {
+    font-size: large;
+  }
+  #adversarial-sentence2 {
+    font-size: large;
+  }
+}
