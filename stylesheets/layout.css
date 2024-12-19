@@ -375,6 +375,7 @@ button:focus {
   padding: 0px;
   font-weight: 100;
   text-align: center;
+  letter-spacing: -10px;
 }
 #topCover #appTitle b {
   font-weight: 400;
@@ -387,29 +388,26 @@ button:focus {
   text-align: center;
   margin-bottom: 20px;
 }
-
-
-#authors {
-  color: #fff;
-  /* White text color to match the title and subtitle */
-  font-size: 1.8em;
-  /* Scaled font size to balance with subtitle */
-  text-align: center;
-  /* Center alignment to match other text elements */
-  margin: 20px 0;
-  /* Adequate spacing from the surrounding elements */
+#logoTitleContainer {
+  display: flex;
+  align-items: center;
+  /* Centers the logo and title vertically */
+  justify-content: center;
+  /* Centers the logo and title horizontally */
+  gap: 20px;
+  /* Spacing between the logo and the title */
 }
 
 #authors p {
-  margin: 8px 0;
-  /* Consistent, smaller spacing between author lines */
-}
-
-#authors p:first-child {
+  color: #fff;
+  font-size: 1.8em;
+  /* Increased font size for visibility */
   font-weight: 400;
-  /* Boldness level to match the app title emphasis */
-  font-size: 2em;
-  /* Slightly larger font for the label */
+  /* Heavier weight to match title */
+  margin-top: 20px;
+  /* Spacing from subtitle */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  /* Shadow for depth */
 }
 
 @media (max-width: 768px) {

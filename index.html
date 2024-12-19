@@ -28,7 +28,7 @@
                     <li><a href="/AutoTrust">Home</a></li>
                     <li><a href="https://github.com/taco-group/Trustworthy-DriveVLM">GitHub</a></li>
                     <!-- TODO -->
-                    <li><a href="https://arxiv.org/abs//2306.11698">Paper</a></li>
+                    <li><a href="/">Paper</a></li>
                     <li><a href="./leaderboard">Leaderboard</a></li>
                 </ul>
             </div>
@@ -42,24 +42,26 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <img src="logo.png" alt="AutoTrust Logo" id="logo" style="max-height:100px;">
-                <h1 id="appTitle"><b>AutoTrust</b></h1>
+                <!-- <img src="logo.png" alt="AutoTrust Logo" id="logo" style="max-height:100px;"> -->
+                <!-- <h1 id="appTitle"><b>AutoTrust</b></h1> -->
+                    <div id="logoTitleContainer">
+                        <img src="logo.png" alt="AutoTrust Logo" id="logo" style="max-height: 100px;">
+                                <h1 id="appTitle">
+                                    <span class="appTitleLetter" style="color: rgb(200,200,200);">A</span>
+                                    <span class="appTitleLetter" style="color: rgb(180,180,180);">u</span>
+                                    <span class="appTitleLetter" style="color: rgb(150,150,150);">t</span>
+                                    <span class="appTitleLetter" style="color: rgb(120,120,120);">o</span>
+                                    <span class="appTitleLetter" style="color: rgb(135,206,250);">T</span>
+                                    <span class="appTitleLetter" style="color: rgb(100,176,240);">r</span>
+                                    <span class="appTitleLetter" style="color: rgb(80,156,230);">u</span>
+                                    <span class="appTitleLetter" style="color: rgb(80,156,230);">s</span>
+                                    <span class="appTitleLetter" style="color: rgb(80,156,230);">t</span>
+                                </h1>
+                    </div>
                 <h3 id="appSubtitle"> A Comprehensive Benchmark of Trustworthiness in VLMs for AD</h3>
                     <div id="authors">
-                        <p>Authors:</p>
-                        <p>Shuo Xing, Texas A&M University</p>
-                        <p>Hongyuan Hua, University of Toronto</p>
-                        <p>Xiangbo Gao, University of Michigan</p>
-                        <p>Shenzhe Zhu, University of Toronto</p>
-                        <p>Renjie Li, Texas A&M University</p>
-                        <p>Kexin Tian, Texas A&M University</p>
-                        <p>Xiaopeng Li, University of Wisconsin-Madison</p>
-                        <p>Heng Huang, University of Maryland</p>
-                        <p>Tianbao Yang, Texas A&M University</p>
-                        <p>Zhangyang Wang, University of Texas at Austin</p>
-                        <p>Yang Zhou, Texas A&M University</p>
-                        <p>Huaxiu Yao, University of North Carolina at Chapel Hill</p>
-                        <p>Zhengzhong Tu, Texas A&M University</p>
+                    <p>Authors: Shuo Xing, Hongyuan Hua, Xiangbo Gao, Shenzhe Zhu, Renjie Li, Kexin Tian, Xiaopeng Li, Heng Huang,
+                        Tianbao Yang, Zhangyang Wang, Yang Zhou, Huaxiu Yao, Zhengzhong Tu</p>
                     </div>
             </div>
         </div>
@@ -72,6 +74,9 @@
                 <div class="infoCard">
                     <div class="infoBody">
                         <div class="infoHeadline"><h1>What is AutoTrust?</h1></div>
+                        <p>⚠️ WARNING: our data contains model outputs that may be considered offensive.</p>
+                        <img style="width: 100%;" src="overview.png"
+                                                    alt="Teaser Figure">
                         <p><span>AutoTrust</span> aims at providing a thorough assessment of trustworthiness in VLMs in Autonomous Driving Tasks </p>
                         <p>The research endeavor is designed to assist researchers and practitioners in better understanding the trustworthiness
                         issues associated with the deployment of state-of-the-art Vision-Language Models (VLMs) for autonomous driving.</p>
@@ -80,11 +85,15 @@
                             including:
                         </p>
                         <ul>
-                            <li>Trustfulness</li>
-                            <li>Safety</li>
-                            <li>Robustness</li>
-                            <li>Privacy</li>
-                            <li>Fairness</li>
+                            <li><strong>Trustfulness:</strong> Assessing their ability to provide factual responses and recognize potential inaccuracies.</li>
+                            <li><strong>Safety:</strong> Assessment of these models encompasses two critical dimensions: their resilience against unintentional perturbations
+                            that may occur in real-world scenarios, and their ability to maintain reliable performance when subjected to potential
+                            malicious attacks on their inputs.</li>
+                            <li> Evaluating the OOD robustness of DriveVLMs which includes Visual Robustness and Language Robustness. </li>
+                            <li><strong>Privacy:</strong> Investigating whether DriveVLMs inadvertently leak privacy-sensitive information about
+                            traffic participants during the perception process.</li>
+                            <li><strong>Fairness:</strong> This assessment evaluates the model's ability to ensure unbiased decision-making across various dimensions including
+                            race, age, gender, and car characteristics such as brand, type, and color.</li>
                         </ul>
                     </div>
                 </div>
@@ -96,16 +105,26 @@
             <div class="col-md-12">
                 <div class="infoCard">
                     <div class="infoBody">
-                        <div class="infoHeadline"><h2>Trustworthiness Perspectives</h2></div>
-                        <p>⚠️ WARNING: our data contains model outputs that may be considered offensive.</p>
+                        <div class="infoHeadline"><h2>Key Findings:</h2></div>
                         <br/>
-                        <p>AutoTrust is designed to conduct a comprehensive evaluation of trustworthiness for state-of-the-art, general-purpose
-                        VLMs and specialized DriveVLMs used in autonomous driving. The evaluation focuses on several key aspects: Trustfulness,
-                        Safety, Robustness, Privacy, and Fairness across various operational settings.
-                        </p>
+                    <ul>
+                        <li><strong style="color: darkgreen;">General:</strong> <i>Generalist VLMs demonstrate superior performance on
+                                trustworthiness compared to specialist DriveVLMs for autonomous driving, where GPT-4o-mini and LLaVA-v1.6
+                                are the top two performers.</i></li>
+                        <li><strong style="color: darkblue;">Trustfulness:</strong> <i>Despite potential factual inaccuracies, DriveVLMs
+                                maintain comparable trustfulness to general-purpose VLMs thanks to better uncertainty handling.</i></li>
+                        <li><strong style="color: green;">Safety:</strong> <i>Vulnerability to adversarial attacks highly correlates with
+                                model size—smaller is more fragile.</i></li>
+                        <li><strong style="color: purple;">Robustness:</strong> <i>DriveVLMs exhibit significant robustness issues,
+                                performing notably worse than generalists.</i></li>
+                        <li><strong style="color: orange;">Privacy:</strong> <i>DriveVLMs are ineffective at protecting privacy information,
+                                with Dolphins and EM-VLM4AD being particularly susceptible to privacy-leakage prompts, while GPT-4o-mini
+                                excels remarkably.</i></li>
+                        <li><strong style="color: darkred;">Fairness:</strong> <i>Both generalist and specialist VLM models struggle to
+                                ensure unbiased decision-making. DriveVLMs demonstrate consistent performance across models but show a
+                                noticeable performance gap compared to generalist VLMs.</i></li>
+                    </ul>
                         <br/>
-                        <img style="width: 100%;" src="overview.png"
-                             alt="Examples of unreliable responses of GPT-4 from different trustworthiness perspectives. GPT-4 can generate undesirable or unreliable content given benign system prompts.">
                     </div>
                 </div>
             </div>
@@ -117,6 +136,19 @@
             <div class="col-md-12">
                 <div class="infoCard">
                     <div class="infoBody">
+                                            <div class="infoHeadline">
+                                                <h2>Citation</h2>
+                                            </div>
+                                            <div class="citationBlock" style="background-color: #f4f4f4; padding: 15px; font-family: monospace;">
+                                                <p>
+                                                    @article{example2023dummy,<br>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;title={Exploration of Dummy Data in Computational Research},<br>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;author={Doe, John and Smith, Jane and Lee, Kevin},<br>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;journal={Journal of Computational Examples},<br>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;year={2023}<br>
+                                                    }
+                                                </p>
+                                            </div>
                         <div class="infoHeadline"><h2>Have Questions?</h2></div>
                         <p> Ask us questions at <a href="mailto:tzz@tamu.edu">tzz@tamu.edu</a>.</p>
 
@@ -135,7 +167,7 @@
         <div class="rightNav">
             <div>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/">AutoTrust</a></li>
+                    <li><a href="/AutoTrust">AutoTrust</a></li>
                     <li><a href="https://taco-group.github.io/">TACO-Group @ Texas A&M University</a></li>
                 </ul>
             </div>
