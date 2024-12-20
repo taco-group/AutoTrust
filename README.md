@@ -16,6 +16,11 @@
 
 **AutoTrust** is a groundbreaking benchmark designed to assess the trustworthiness of DriveVLMs. This work aims to enhance public safety by ensuring DriveVLMs operate reliably across critical dimensions.
 
+<div align="center">
+  <img src="assets/autotrust-teaser.png" alt="EMMA diagram" width="800"/>
+  <p><em>Figure 1. We present AUTOTRUST, a comprehensive benchmark for assessing the trustworthiness of large vision language models for autonomous driving (i.e., DriveVLMs), covering five key dimensions: Trustfulness, Safety, Robustness, Privacy, and Fairness.</em></p>
+</div>
+
 ### Key Highlights
 
 - **Comprehensive Evaluation:** Examines DriveVLMs across five pillars: Trustfulness, Safety, Robustness, Privacy, and Fairness, over 10k unique scenes and 18k Q&A pairs constructed to evaluate diverse driving scenarios.
@@ -23,11 +28,6 @@
 - **Generalists Shine:** Surprisingly, generalist models like GPT-4o-mini outperform specialized models in trustworthiness.
 
 - **Adversarial Vulnerabilities:** Identifies significant weaknesses in privacy protection, bias, and resilience to attacks, demanding urgent attention.
-
-<div align="center">
-  <img src="assets/autotrust-teaser.png" alt="EMMA diagram" width="800"/>
-  <p><em>Figure 1. We present AUTOTRUST, a comprehensive benchmark for assessing the trustworthiness of large vision language models for autonomous driving (i.e., DriveVLMs), covering five key dimensions: Trustfulness, Safety, Robustness, Privacy, and Fairness.</em></p>
-</div>
 
 ### News
 - **[2024/12/19]** 🔥We released **AutoTrust**, a groundbreaking benchmark designed to assess the trustworthiness of DriveVLMs.. Explore our [paper](https://arxiv.org/abs/2412.15206) and [website](https://taco-group.github.io/AutoTrust/) for more details.
