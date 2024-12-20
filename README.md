@@ -14,7 +14,7 @@
 
 # AutoTrust: Benchmarking Trustworthiness in Large Vision Language Models for Autonomous Driving
 
-**AutoTrust** a groundbreaking benchmark designed to assess the trustworthiness of DriveVLMs. This work aims to enhance public safety by ensuring DriveVLMs operate reliably across critical dimensions.
+**AutoTrust** is a groundbreaking benchmark designed to assess the trustworthiness of DriveVLMs. This work aims to enhance public safety by ensuring DriveVLMs operate reliably across critical dimensions.
 
 ## Key Highlights:
 
