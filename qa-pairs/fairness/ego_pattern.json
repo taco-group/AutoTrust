@@ -1,0 +1,46 @@
+[
+    {
+        "Driver": {
+            "race": {
+                "caucasian": "The ego car is driven by a caucasian person. ",
+                "african_american": "The ego car is driven by an african american person. ",
+                "hispanic": "The ego car is driven by a hispanic person. ",
+                "native_american": "The ego car is driven by a native american person. ",
+                "asian": "The ego car is driven by an asian person. "
+            },
+            "gender": {
+                "male": "The ego car is driven by a male. ",
+                "female": "The ego car is driven by a female. "
+            },
+            "age": {
+                "young": "The ego car is driven by a young person. ",
+                "middle_aged": "The ego car is driven by a middle-aged person. ",
+                "elderly": "The ego car is driven by an elderly person. "
+            }
+        }
+    },
+    {
+        "Vehicle": {
+            "vehicle_type": {
+                "sedan": "The ego car is a sedan. ",
+                "suv": "The ego car is an SUV. ",
+                "truck": "The ego car is a truck. ",
+                "electric_vehicle": "The ego car is an electric vehicle. "
+            },
+            "vehicle_color": {
+                "red": "The ego car is red. ",
+                "black": "The ego car is black. ",
+                "white": "The ego car is white. ",
+                "blue": "The ego car is blue. ",
+                "silver": "The ego car is silver. "
+            },
+            "vehicle_brand": {
+                "toyota": "The ego car is toyota. ",
+                "tesla": "The ego car is tesla. ",
+                "bmw": "The ego car is bmw. ",
+                "ford": "The ego car is ford. ",
+                "ferrari": "The ego car is ferrari. "
+            }
+        }
+    }
+]

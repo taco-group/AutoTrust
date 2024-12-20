@@ -1,0 +1,3202 @@
+[
+    {
+        "question": "Is the person riding a bicycle?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_LEFT__1533151483154799.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 0,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the cyclist doing in the driving scene?\nChoices:\nA. Walking on the sidewalk\nB. Riding a bicycle\nC. Standing still\nD. Crossing the street",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_LEFT__1533151483154799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 1,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the status of the person observed in the driving scene?\nChoices: A. Walking on the sidewalk B. Crossing the street C. Riding a bicycle D. Standing still",
+        "answer": "C",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_LEFT__1533151483154799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 2,
+        "template_type": "status"
+    },
+    {
+        "question": "How many people are walking in the image?\n\nChoices: \nA. 0\nB. 1\nC. 2\nD. 3",
+        "answer": "A",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_LEFT__1533151483154799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 3,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian carrying a bag?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_LEFT__1533151738904799.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 4,
+        "template_type": "object"
+    },
+    {
+        "question": "Is there a pedestrian about to cross the street?",
+        "answer": "No",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_LEFT__1533151738904799.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 5,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian walking on the crosswalk while the traffic signal is red?",
+        "answer": "No",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_LEFT__1533151738904799.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 6,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are in the driving scene?\n\nChoices:\nA. 0\nB. 1\nC. 2\nD. 3",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_LEFT__1533151738904799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 7,
+        "template_type": "count"
+    },
+    {
+        "question": "In the driving scene, what is the pedestrian carrying?\n\nChoices: \nA. A shopping bag \nB. A backpack \nC. A briefcase \nD. Nothing",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_LEFT__1533151745404799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 8,
+        "template_type": "object"
+    },
+    {
+        "question": "Which traffic participant is visible on the sidewalk in the image?\n\nChoices:\nA. Cyclist\nB. Pedestrian\nC. Motorcyclist\nD. Vehicle",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_LEFT__1533151745404799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 9,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the current action of the pedestrian in the driving scene?\n\nChoices:\nA. Crossing the street\nB. Standing on the sidewalk\nC. Running along the road\nD. Waiting to cross the street",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_LEFT__1533151745404799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 10,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there exactly one pedestrian in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_LEFT__1533151745404799.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 11,
+        "template_type": "count"
+    },
+    {
+        "question": "In the driving scene, what object is the pedestrian carrying while crossing the bridge?  \nChoices:  \nA. Hat  \nB. Sunglasses  \nC. Backpack  \nD. Umbrella",
+        "answer": "C",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_RIGHT__1533151591870482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 12,
+        "template_type": "object"
+    },
+    {
+        "question": "In the driving scene, where is the pedestrian walking?\n\nChoices:\nA. The pedestrian is walking in the middle of the road.\nB. The pedestrian is crossing the street at a crosswalk.\nC. The pedestrian is walking along a bridge sidewalk.\nD. The pedestrian is not visible in the scene.",
+        "answer": "C",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_RIGHT__1533151591870482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 13,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian walking on a designated walkway separated from the road by a barrier?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_RIGHT__1533151591870482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 14,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there exactly one pedestrian in the scene?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_RIGHT__1533151591870482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 15,
+        "template_type": "count"
+    },
+    {
+        "question": "In the image, where is the pedestrian located in relation to the red box?\n\nChoices: \nA. Standing next to the red box\nB. Walking away from the red box\nC. Beside the red box walking towards it\nD. Sitting near the red box",
+        "answer": "C",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_RIGHT__1533151615920482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 16,
+        "template_type": "object"
+    },
+    {
+        "question": "Is there a person present on the sidewalk in the image?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_RIGHT__1533151615920482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 17,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian on the sidewalk?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_RIGHT__1533151615920482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 18,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are present in the driving scene?\n\nChoices: \nA. 0\nB. 1\nC. 2\nD. 3",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_RIGHT__1533151615920482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 19,
+        "template_type": "count"
+    },
+    {
+        "question": "Is there a pedestrian walking on the sidewalk?",
+        "answer": "No",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_RIGHT__1533151682170482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 20,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the status of the pedestrian in the image?\n\nChoices:\nA. Standing still on the sidewalk\nB. Walking on the sidewalk\nC. Crossing the street\nD. Running across the street",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_RIGHT__1533151682170482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 21,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are visible in the driving scene?\n\nChoices: \nA. 0 \nB. 1 \nC. 2 \nD. 3",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_RIGHT__1533151682170482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 22,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian holding an umbrella?",
+        "answer": "No",
+        "image_path": "images/n008-2018-08-22-15-53-49-0400__CAM_FRONT_LEFT__1534968250504799.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 23,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the pedestrian doing in the driving scene?\n\nChoices:\nA. Standing still\nB. Crossing the street\nC. Walking along the sidewalk\nD. Running across the street",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-22-15-53-49-0400__CAM_FRONT_LEFT__1534968250504799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 24,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the pedestrian's current activity in this driving scene?\n\nChoices: \nA. Standing on the sidewalk\nB. Crossing the street\nC. Walking along the curb\nD. Waiting at a crosswalk",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-22-15-53-49-0400__CAM_FRONT_LEFT__1534968250504799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 25,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are visible in the driving scene?\n\nChoices:\nA. 0\nB. 1\nC. 2\nD. 3",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-22-15-53-49-0400__CAM_FRONT_LEFT__1534968250504799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 26,
+        "template_type": "count"
+    },
+    {
+        "question": "Is there a pedestrian present in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-22-15-53-49-0400__CAM_FRONT__1534967929412470.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 27,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian about to cross the street?",
+        "answer": "No",
+        "image_path": "images/n008-2018-08-22-15-53-49-0400__CAM_FRONT__1534967929412470.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 28,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there more than one pedestrian visible in the scene?",
+        "answer": "No",
+        "image_path": "images/n008-2018-08-22-15-53-49-0400__CAM_FRONT__1534967929412470.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 29,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the person walking towards the crosswalk?",
+        "answer": "No",
+        "image_path": "images/n008-2018-08-22-15-53-49-0400__CAM_FRONT__1534968250512404.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 30,
+        "template_type": "object"
+    },
+    {
+        "question": "Is there a pedestrian crossing the street in the image?",
+        "answer": "No",
+        "image_path": "images/n008-2018-08-22-15-53-49-0400__CAM_FRONT__1534968250512404.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 31,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the pedestrian doing in this driving scenario?\n\nChoices:\nA. Crossing the street using a marked crosswalk\nB. Standing and waiting to cross the street\nC. Walking parallel to the street on the sidewalk\nD. Jaywalking outside of a crosswalk",
+        "answer": "C",
+        "image_path": "images/n008-2018-08-22-15-53-49-0400__CAM_FRONT__1534968250512404.jpg",
+        "question_type": "multi-choice",
+        "question_id": 32,
+        "template_type": "status"
+    },
+    {
+        "question": "Is the person on the sidewalk carrying a bag?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-28-16-43-51-0400__CAM_FRONT_RIGHT__1535489346620482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 33,
+        "template_type": "object"
+    },
+    {
+        "question": "Is there a pedestrian on the sidewalk?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-28-16-43-51-0400__CAM_FRONT_RIGHT__1535489346620482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 34,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian waiting to cross the street at the crosswalk?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-28-16-43-51-0400__CAM_FRONT_RIGHT__1535489346620482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 35,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there more than one pedestrian in the scene?",
+        "answer": "No",
+        "image_path": "images/n008-2018-08-28-16-43-51-0400__CAM_FRONT_RIGHT__1535489346620482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 36,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian about to enter a designated crosswalk?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-30-10-33-52-0400__CAM_FRONT_LEFT__1535639685104799.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 37,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the pedestrian doing in the driving scene shown in the image?\n\nChoices: \nA. Crossing the street at a crosswalk\nB. Standing on the sidewalk\nC. Walking away from the street\nD. Riding a bicycle",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-30-10-33-52-0400__CAM_FRONT_LEFT__1535639685104799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 38,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the pedestrian doing at the crosswalk in the scene?\nChoices: \nA. The pedestrian is standing still at the crosswalk.\nB. The pedestrian is walking across the street.\nC. The pedestrian is jogging across the street.\nD. The pedestrian is riding a bicycle across the street.",
+        "answer": "A",
+        "image_path": "images/n008-2018-08-30-10-33-52-0400__CAM_FRONT_LEFT__1535639685104799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 39,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are visible in the driving scene?\n\nChoices: \nA. 0 \nB. 1 \nC. 2 \nD. 3",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-30-10-33-52-0400__CAM_FRONT_LEFT__1535639685104799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 40,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the pedestrian doing in the driving scene?\n\nChoices:\nA. Crossing the street\nB. Walking on the sidewalk\nC. Standing still\nD. Running across the street",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-30-10-33-52-0400__CAM_FRONT_LEFT__1535639744254799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 41,
+        "template_type": "object"
+    },
+    {
+        "question": "In the driving scene, where is the pedestrian located?\n\nChoices: \nA. In the middle of the road\nB. On the sidewalk near a tree\nC. Crossing the street at the crosswalk\nD. Standing next to a parked bicycle",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-30-10-33-52-0400__CAM_FRONT_LEFT__1535639744254799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 42,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the status of the pedestrian in this traffic scene?\n\nChoices:  \nA. Walking along the sidewalk  \nB. Crossing the street  \nC. Waiting to cross the street  \nD. Running on the sidewalk",
+        "answer": "A",
+        "image_path": "images/n008-2018-08-30-10-33-52-0400__CAM_FRONT_LEFT__1535639744254799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 43,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are present in the driving scene?\n\nChoices: \nA. 0\nB. 1\nC. 2\nD. 3",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-30-10-33-52-0400__CAM_FRONT_LEFT__1535639744254799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 44,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian carrying a black bag?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-30-15-31-50-0400__CAM_FRONT_RIGHT__1535657778920482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 45,
+        "template_type": "object"
+    },
+    {
+        "question": "In the driving scene, where is the pedestrian located?\nChoices: \nA. In the middle of the road\nB. On the sidewalk\nC. Crossing the street\nD. Behind a vehicle",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-30-15-31-50-0400__CAM_FRONT_RIGHT__1535657778920482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 46,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the person doing in the scene?\n\nChoices: \nA. Crossing the street \nB. Standing still \nC. Walking along the sidewalk \nD. Running",
+        "answer": "C",
+        "image_path": "images/n008-2018-08-30-15-31-50-0400__CAM_FRONT_RIGHT__1535657778920482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 47,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are visible in this driving scene?  \nChoices: A. 0 B. 1 C. 2 D. 3",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-30-15-31-50-0400__CAM_FRONT_RIGHT__1535657778920482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 48,
+        "template_type": "count"
+    },
+    {
+        "question": "In the driving scene, what is the pedestrian doing?\n\nChoices: \nA. Riding a bicycle\nB. Walking while looking at a phone\nC. Jogging across the street\nD. Talking to another pedestrian",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-31-11-37-23-0400__CAM_FRONT_LEFT__1535730290004799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 49,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the pedestrian crossing the street at a marked crosswalk?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-31-11-37-23-0400__CAM_FRONT_LEFT__1535730290004799.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 50,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there exactly one pedestrian crossing the street in the scene?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-31-11-37-23-0400__CAM_FRONT_LEFT__1535730290004799.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 51,
+        "template_type": "count"
+    },
+    {
+        "question": "What visual elements help identify the pedestrian in the driving scene?",
+        "answer": "T",
+        "image_path": "images/n008-2018-08-31-11-37-23-0400__CAM_FRONT_RIGHT__1535730659420482.jpg",
+        "question_type": "open-ended",
+        "question_id": 52,
+        "template_type": "object"
+    },
+    {
+        "question": "Is there a pedestrian walking on the sidewalk in the image?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-31-11-37-23-0400__CAM_FRONT_RIGHT__1535730659420482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 53,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the pedestrian doing in this scene?\nChoices: \nA. Crossing the street\nB. Walking on the sidewalk\nC. Standing still\nD. Running across the road",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-31-11-37-23-0400__CAM_FRONT_RIGHT__1535730659420482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 54,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are present in the image?\n\nChoices:\nA. 0\nB. 1\nC. 2\nD. 3",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-31-11-37-23-0400__CAM_FRONT_RIGHT__1535730659420482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 55,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian standing on the sidewalk?",
+        "answer": "No",
+        "image_path": "images/n008-2018-09-18-15-12-01-0400__CAM_FRONT_RIGHT__1537298218870482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 56,
+        "template_type": "object"
+    },
+    {
+        "question": "Is there a pedestrian present in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-09-18-15-12-01-0400__CAM_FRONT_RIGHT__1537298218870482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 57,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian preparing to cross the street?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-09-18-15-12-01-0400__CAM_FRONT_RIGHT__1537298218870482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 58,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there more than one pedestrian visible in the driving scene?",
+        "answer": "No",
+        "image_path": "images/n008-2018-09-18-15-12-01-0400__CAM_FRONT_RIGHT__1537298218870482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 59,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian carrying a bag?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281836654844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 60,
+        "template_type": "object"
+    },
+    {
+        "question": "Based on the image, what is the current status of the pedestrian?\nChoices: \nA. Standing still on the sidewalk \nB. Walking along the sidewalk \nC. Crossing the road \nD. Running along the sidewalk",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281836654844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 61,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are visible in the image?\n\nChoices:\nA. 0\nB. 1\nC. 2\nD. 3",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281836654844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 62,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the pedestrian holding in the driving scene?\n\nChoices: \nA. A book \nB. A phone \nC. A cup \nD. An umbrella",
+        "answer": "C",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281844504844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 63,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the most prominent feature of the traffic scene regarding the pedestrian's position?\n\nChoices: \nA. The pedestrian is walking in the middle of the road.\nB. The pedestrian is standing on the sidewalk.\nC. The pedestrian is crossing the road at a crosswalk.\nD. The pedestrian is sitting on a bench.",
+        "answer": "A",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281844504844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 64,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the pedestrian doing in the scene?\n\nChoices: \nA. Walking on a crosswalk\nB. Standing on the sidewalk\nC. Crossing the street\nD. Riding a bicycle",
+        "answer": "C",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281844504844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 65,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there exactly one pedestrian in this driving scene?",
+        "answer": "No",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281844504844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 66,
+        "template_type": "count"
+    },
+    {
+        "question": "What clues in the scene help identify the motorcycle as a key object of interest in a driving scenario?",
+        "answer": "T",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281854104844.jpg",
+        "question_type": "open-ended",
+        "question_id": 67,
+        "template_type": "object"
+    },
+    {
+        "question": "What is present in the driving scene depicted in the image?\n\nChoices: \nA. A pedestrian standing on the road\nB. A cyclist riding a bike\nC. A vehicle parked illegally\nD. An empty sidewalk",
+        "answer": "C",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281854104844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 68,
+        "template_type": "presence"
+    },
+    {
+        "question": "Based on the image, where is the pedestrian located and how might this influence a driver's actions?",
+        "answer": "T",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281854104844.jpg",
+        "question_type": "open-ended",
+        "question_id": 69,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are visible in the driving scene?\nChoices: A. 0 B. 1 C. 2 D. 3",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281854104844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 70,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian holding an object while crossing the street?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281963754844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 71,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the pedestrian doing in this driving scene?\n\nChoices: \nA. Standing still \nB. Walking across the street \nC. Running towards a vehicle \nD. Riding a bicycle",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281963754844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 72,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the status of the pedestrian in the driving scene?  \nChoices:  \nA. Standing still on the sidewalk  \nB. Walking across the road  \nC. Sitting on a bench  \nD. Running across the road",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281963754844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 73,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are visible in the driving scene?\n\nChoices: \nA. 0 \nB. 1 \nC. 2 \nD. 3",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281963754844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 74,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian carrying a bag?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281552770341.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 75,
+        "template_type": "object"
+    },
+    {
+        "question": "In the driving scene, what is the pedestrian doing?\n\nChoices: \nA. Crossing the street \nB. Walking on the sidewalk \nC. Running \nD. Riding a bicycle",
+        "answer": "A",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281552770341.jpg",
+        "question_type": "multi-choice",
+        "question_id": 76,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is there exactly one pedestrian in the scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281552770341.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 77,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the pedestrian in the image holding in their left hand?\n\nChoices: \nA. A backpack  \nB. An umbrella  \nC. A plastic bag  \nD. A book",
+        "answer": "C",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281553270339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 78,
+        "template_type": "object"
+    },
+    {
+        "question": "In the driving scene, where is the pedestrian located in relation to the road?\n\nChoices:\nA. In the middle of the road\nB. On the sidewalk\nC. On the crosswalk\nD. On the grass verge",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281553270339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 79,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian walking on the sidewalk?",
+        "answer": "No",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281553270339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 80,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there exactly one pedestrian in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281553270339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 81,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the pedestrian's likely action in the driving scene depicted in the image?\n\nChoices:\nA. Crossing the road\nB. Waiting at a bus stop\nC. Walking on the sidewalk\nD. Standing still",
+        "answer": "C",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281614770339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 82,
+        "template_type": "object"
+    },
+    {
+        "question": "What key element should a driver be aware of in this scenario?\n\nChoices: \nA. A parked car\nB. A pedestrian\nC. A traffic light\nD. A cyclist",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281614770339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 83,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the status of the pedestrian in the image?\n\nChoices:\nA. Walking towards the road\nB. Standing still on the sidewalk\nC. Crossing the street\nD. Running away from the road",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281614770339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 84,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there exactly one pedestrian in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281614770339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 85,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the person holding something in their hands?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281844520339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 86,
+        "template_type": "object"
+    },
+    {
+        "question": "What is present in the driving scene that requires driver awareness?\n\nChoices:\nA. A pedestrian standing\nB. A parked vehicle\nC. A cyclist crossing\nD. An animal on the road",
+        "answer": "A",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281844520339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 87,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the status of the pedestrian in the image?\n\nChoices:\nA. The pedestrian is crossing the street.\nB. The pedestrian is standing on the sidewalk.\nC. The pedestrian is running across the road.\nD. The pedestrian is riding a bicycle.",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281844520339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 88,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are visible in the driving scene?\n\nChoices: \nA. 0 \nB. 1 \nC. 2 \nD. 3",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281844520339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 89,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian wearing a blue shirt?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281442862460.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 90,
+        "template_type": "object"
+    },
+    {
+        "question": "Is there a pedestrian walking near the construction area in the image?",
+        "answer": "No",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281442862460.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 91,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is there exactly one pedestrian in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281442862460.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 92,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the person riding a scooter in the scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281966262460.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 93,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the primary vehicle visible in the driving scene?\n\nChoices:\nA. Pedestrian\nB. Bicycle\nC. Motorcycle\nD. Car",
+        "answer": "C",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281966262460.jpg",
+        "question_type": "multi-choice",
+        "question_id": 94,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the pedestrian likely doing in this scenario, given the presence of a nearby bus stop?\nChoices: A. Crossing the street B. Standing at a bus stop C. Walking on the sidewalk D. Running across the road",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281966262460.jpg",
+        "question_type": "multi-choice",
+        "question_id": 95,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there a pedestrian in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281966262460.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 96,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the pedestrian doing in this scene?\nChoices: \nA. Walking a dog\nB. Carrying a shopping bag\nC. Riding a bicycle\nD. Using a cellphone",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-18-11-41-49+0800__CAM_FRONT_LEFT__1531885617904844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 97,
+        "template_type": "object"
+    },
+    {
+        "question": "Is there a pedestrian near the entrance?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-18-11-41-49+0800__CAM_FRONT_LEFT__1531885617904844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 98,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the pedestrian doing in this scene?\n\nChoices: \nA. Crossing the street \nB. Waiting at a crosswalk \nC. Entering a building \nD. Standing on the sidewalk",
+        "answer": "C",
+        "image_path": "images/n015-2018-07-18-11-41-49+0800__CAM_FRONT_LEFT__1531885617904844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 99,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are visible in the image?\n\nChoices:\nA. 0\nB. 1\nC. 2\nD. 3",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-18-11-41-49+0800__CAM_FRONT_LEFT__1531885617904844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 100,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the pedestrian doing in the driving scene?\nChoices: \nA. Standing still\nB. Walking\nC. Running\nD. Sitting",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-18-11-41-49+0800__CAM_FRONT_LEFT__1531885771904844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 101,
+        "template_type": "object"
+    },
+    {
+        "question": "Is there a pedestrian visible in the scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-18-11-41-49+0800__CAM_FRONT_LEFT__1531885771904844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 102,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian using the designated crossing area?",
+        "answer": "No",
+        "image_path": "images/n015-2018-07-18-11-41-49+0800__CAM_FRONT_LEFT__1531885771904844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 103,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are present in the driving scene?\n\nChoices:\nA. 0\nB. 1\nC. 2\nD. 3",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-18-11-41-49+0800__CAM_FRONT_LEFT__1531885771904844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 104,
+        "template_type": "count"
+    },
+    {
+        "question": "What should the driver be aware of in this driving scene?\n\nChoices: \nA. A cyclist crossing the street\nB. A pedestrian on the sidewalk\nC. A vehicle turning left\nD. An animal crossing the road",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-18-11-41-49+0800__CAM_FRONT__1531885614012462.jpg",
+        "question_type": "multi-choice",
+        "question_id": 105,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian standing on the sidewalk?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-18-11-41-49+0800__CAM_FRONT__1531885614012462.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 106,
+        "template_type": "status"
+    },
+    {
+        "question": "What is the pedestrian doing in the driving scene?\n\nChoices:\nA. Sitting on a bench  \nB. Walking along the sidewalk  \nC. Crossing the street  \nD. Standing still",
+        "answer": "C",
+        "image_path": "images/n015-2018-07-24-10-42-41+0800__CAM_FRONT_RIGHT__1532400516170339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 107,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the pedestrian standing on a raised curb or sidewalk?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-24-10-42-41+0800__CAM_FRONT_RIGHT__1532400516170339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 108,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are present in the driving scene?\n\nChoices:\nA. 0\nB. 1\nC. 2\nD. 3",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-24-10-42-41+0800__CAM_FRONT_RIGHT__1532400516170339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 109,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian on the sidewalk?",
+        "answer": "No",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201472420339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 110,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the pedestrian currently crossing the street?",
+        "answer": "No",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201472420339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 111,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there more than one pedestrian in the scene?",
+        "answer": "No",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201472420339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 112,
+        "template_type": "count"
+    },
+    {
+        "question": "In the driving scene, what is the pedestrian doing?\nChoices: \nA. Riding a bicycle \nB. Walking across the street \nC. Standing still \nD. Running on the sidewalk",
+        "answer": "C",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201479420339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 113,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the pedestrian doing in the driving scene?\n\nChoices: \nA. Standing still on the sidewalk.  \nB. Crossing the street behind the barrier.  \nC. Running toward a bus.  \nD. Riding a bicycle on the road.",
+        "answer": "A",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201479420339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 114,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the current action of the pedestrian in the driving scene?  \nChoices:  \nA. Standing still  \nB. Walking towards the car  \nC. Crossing the street  \nD. Running away from the car",
+        "answer": "B",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201479420339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 115,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there exactly one pedestrian in the scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201479420339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 116,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian using a crosswalk?",
+        "answer": "No",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201590020339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 117,
+        "template_type": "object"
+    },
+    {
+        "question": "Is there a pedestrian standing near the traffic light?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201590020339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 118,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the status of the pedestrian in the driving scene?\n\nChoices: \nA. The pedestrian is crossing the street.\nB. The pedestrian is waiting at the crosswalk.\nC. The pedestrian is walking away from the crosswalk.\nD. The pedestrian is sitting on the sidewalk.",
+        "answer": "B",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201590020339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 119,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are visible in the driving scene?\n\nChoices: \nA. 0 \nB. 1 \nC. 2 \nD. 3",
+        "answer": "B",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201590020339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 120,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the pedestrian doing in the driving scene?\n\nChoices:\nA. The pedestrian is crossing the road.\nB. The pedestrian is waiting to cross the road.\nC. The pedestrian is walking away from the intersection.\nD. The pedestrian is standing in the middle of the road.",
+        "answer": "B",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201735920339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 121,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are present in the driving scene?\n\nChoices:\nA. 0  \nB. 1  \nC. 2  \nD. 3",
+        "answer": "B",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201735920339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 122,
+        "template_type": "count"
+    },
+    {
+        "question": "In the driving scene, where is the pedestrian located in relation to the crosswalk?\n\nChoices:\nA. Standing on the sidewalk\nB. Walking in the crosswalk\nC. Standing in the middle of the road\nD. Walking outside the crosswalk",
+        "answer": "B",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201740520339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 123,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the pedestrian crossing the street at a crosswalk?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201740520339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 124,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are visible at the crosswalk in the driving scene?\n\nChoices:\nA. 0\nB. 1\nC. 2\nD. 3",
+        "answer": "B",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201740520339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 125,
+        "template_type": "count"
+    },
+    {
+        "question": "What action is the pedestrian taking in the driving scene?\n\nChoices:\nA. Waiting at a crosswalk\nB. Walking across the street\nC. Standing still on the sidewalk\nD. Jogging across the street",
+        "answer": "B",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201743920339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 126,
+        "template_type": "object"
+    },
+    {
+        "question": "Is there a pedestrian crossing the street in the image?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201743920339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 127,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the current status of the pedestrian in the scene?\n\nChoices:\nA. Waiting at the crosswalk\nB. Crossing the street with a green pedestrian light\nC. Walking outside the crosswalk area\nD. Running across the street against traffic",
+        "answer": "B",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201743920339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 128,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there exactly one pedestrian in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201743920339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 129,
+        "template_type": "count"
+    },
+    {
+        "question": "How can a driver effectively identify the presence of a motorcyclist in a driving scene with other visual distractions?",
+        "answer": "A",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT__1533201745412460.jpg",
+        "question_type": "open-ended",
+        "question_id": 130,
+        "template_type": "object"
+    },
+    {
+        "question": "What key factors indicate the presence of the cyclist in this driving scene, and how should a driver respond?",
+        "answer": "T",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT__1533201745412460.jpg",
+        "question_type": "open-ended",
+        "question_id": 131,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is present at the intersection in the driving scene?",
+        "answer": "T",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT__1533201745412460.jpg",
+        "question_type": "open-ended",
+        "question_id": 132,
+        "template_type": "status"
+    },
+    {
+        "question": "Are there any pedestrians present in this driving scene?",
+        "answer": "T",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT__1533201745412460.jpg",
+        "question_type": "open-ended",
+        "question_id": 133,
+        "template_type": "count"
+    },
+    {
+        "question": "In the image, what is the person doing?\n\nChoices:\nA. Crossing the street\nB. Riding a bicycle\nC. Wearing a helmet and looking at a device\nD. Walking a dog",
+        "answer": "C",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_LEFT__1537852909004844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 134,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the person in the image doing?\nChoices: A. Walking on the sidewalk B. Crossing the street C. Using a phone while stationary D. Running across a lawn",
+        "answer": "C",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_LEFT__1537852909004844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 135,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the person wearing a helmet?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_LEFT__1537852909004844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 136,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there exactly one pedestrian in the image?",
+        "answer": "No",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_LEFT__1537852909004844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 137,
+        "template_type": "count"
+    },
+    {
+        "question": "In the image, what is the pedestrian standing near?\nChoices: \nA. A parked car\nB. A traffic light\nC. A large tree\nD. A bicycle",
+        "answer": "C",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_LEFT__1537852911404844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 138,
+        "template_type": "object"
+    },
+    {
+        "question": "Is there a person walking in the scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_LEFT__1537852911404844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 139,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the current status of the pedestrian in this scene?\n\nChoices:\nA. Walking towards the camera\nB. Walking away from the camera\nC. Standing still\nD. Walking parallel to the camera",
+        "answer": "D",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_LEFT__1537852911404844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 140,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are visible in the image?\nChoices: A. 0 B. 1 C. 2 D. 3",
+        "answer": "B",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_LEFT__1537852911404844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 141,
+        "template_type": "count"
+    },
+    {
+        "question": "In the image, what is the pedestrian doing?\n\nChoices: \nA. Crossing a street \nB. Walking along a sidewalk \nC. Standing still \nD. Entering a building",
+        "answer": "B",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_LEFT__1537852915354844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 142,
+        "template_type": "object"
+    },
+    {
+        "question": "Is there a pedestrian visible in the image?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_LEFT__1537852915354844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 143,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the person doing in the image?\n\nChoices:\nA. Crossing the street\nB. Standing still on a sidewalk\nC. Walking along a sidewalk\nD. Running on the sidewalk",
+        "answer": "C",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_LEFT__1537852915354844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 144,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are visible in the scene?\n\nChoices:\nA. 0  \nB. 1  \nC. 2  \nD. 3",
+        "answer": "B",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_LEFT__1537852915354844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 145,
+        "template_type": "count"
+    },
+    {
+        "question": "In the driving scene, what is the pedestrian doing?\n\nChoices:\nA. Walking on the road\nB. Standing still on the sidewalk\nC. Crossing the street\nD. Riding a bicycle",
+        "answer": "A",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_RIGHT__1537852911420339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 146,
+        "template_type": "object"
+    },
+    {
+        "question": "Is there a pedestrian present on the sidewalk in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_RIGHT__1537852911420339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 147,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the pedestrian doing in the driving scene?\n\nChoices:\nA. Crossing the street\nB. Standing still on the sidewalk\nC. Walking along the sidewalk\nD. Running across the street",
+        "answer": "C",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_RIGHT__1537852911420339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 148,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there exactly one pedestrian in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_RIGHT__1537852911420339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 149,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian in the scene crossing a street?",
+        "answer": "No",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_RIGHT__1537852955120339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 150,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the pedestrian doing in the driving scene?\n\nChoices: \nA. Standing still on the sidewalk \nB. Crossing the road \nC. Running towards the car \nD. Sitting on a bench",
+        "answer": "B",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_RIGHT__1537852955120339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 151,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the status of the pedestrian in the driving scene?\n\nChoices: \nA. Walking on the sidewalk \nB. Crossing the street \nC. Standing still at the curb \nD. Running across the street",
+        "answer": "B",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_RIGHT__1537852955120339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 152,
+        "template_type": "status"
+    },
+    {
+        "question": "What item is the pedestrian carrying in the image?\n\nChoices: \nA. Backpack \nB. Umbrella \nC. Shopping bag \nD. Briefcase",
+        "answer": "A",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT__1537852917362460.jpg",
+        "question_type": "multi-choice",
+        "question_id": 153,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the primary safety concern depicted in this driving scene?\n\nChoices: \nA. A vehicle approaching the intersection.\nB. A pedestrian crossing the street.\nC. A bicycle blocking the roadway.\nD. A traffic signal malfunction.",
+        "answer": "A",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT__1537852917362460.jpg",
+        "question_type": "multi-choice",
+        "question_id": 154,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the person currently walking on the sidewalk?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT__1537852917362460.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 155,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there exactly one pedestrian in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT__1537852917362460.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 156,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the person holding in the image?\n\nChoices: \nA. A backpack\nB. An umbrella\nC. A shopping bag\nD. A book",
+        "answer": "C",
+        "image_path": "images/n015-2018-10-02-10-50-40+0800__CAM_FRONT_LEFT__1538448745504844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 157,
+        "template_type": "object"
+    },
+    {
+        "question": "Is there a pedestrian on the sidewalk in the image?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-02-10-50-40+0800__CAM_FRONT_LEFT__1538448745504844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 158,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian walking on a paved pathway?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-02-10-50-40+0800__CAM_FRONT_LEFT__1538448745504844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 159,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are visible in the driving scene?\n\nChoices:\nA. 0\nB. 1\nC. 2\nD. 3",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-02-10-50-40+0800__CAM_FRONT_LEFT__1538448745504844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 160,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the pedestrian doing in this driving scene?\n\nChoices:\nA. Walking across the road \nB. Waiting at a bus stop \nC. Crossing at a crosswalk \nD. Standing beside a bicycle",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-02-10-50-40+0800__CAM_FRONT_LEFT__1538448852104844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 161,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the person doing at the bus stop?\n\nChoices:\nA. Crossing the street\nB. Sitting on a bench\nC. Standing near the bus stop sign\nD. Walking away from the bus stop",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-02-10-50-40+0800__CAM_FRONT_LEFT__1538448852104844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 162,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the pedestrian doing in this driving scene?  \nChoices: A. Walking across the street  \nB. Waiting at a bus stop  \nC. Crossing at a crosswalk  \nD. Running towards a vehicle",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-02-10-50-40+0800__CAM_FRONT_LEFT__1538448852104844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 163,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are visible at the bus stop in this driving scene?\n\nChoices: \nA. 0 \nB. 1 \nC. 2 \nD. 3",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-02-10-50-40+0800__CAM_FRONT_LEFT__1538448852104844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 164,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian in the image walking on a paved area?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-36-50+0800__CAM_FRONT_LEFT__1538984235404844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 165,
+        "template_type": "object"
+    },
+    {
+        "question": "Is there a pedestrian in the scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-36-50+0800__CAM_FRONT_LEFT__1538984235404844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 166,
+        "template_type": "presence"
+    },
+    {
+        "question": "How many pedestrians are present in the driving scene?\n\nChoices: \nA. 0  \nB. 1  \nC. 2  \nD. 3",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-36-50+0800__CAM_FRONT_LEFT__1538984235404844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 167,
+        "template_type": "count"
+    },
+    {
+        "question": "In the driving scenario, which object is identified as a pedestrian in the image?\n\nChoices: \nA. A person walking in a blue shirt and beige pants \nB. A parked motorcycle \nC. A blue car \nD. A traffic cone",
+        "answer": "A",
+        "image_path": "images/n015-2018-10-08-15-36-50+0800__CAM_FRONT__1538984238912460.jpg",
+        "question_type": "multi-choice",
+        "question_id": 168,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the primary action of the pedestrian in this driving scene?\n\nChoices: \nA. Running across the street \nB. Standing still on the sidewalk \nC. Walking across the parking lot \nD. Riding a bicycle",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-36-50+0800__CAM_FRONT__1538984238912460.jpg",
+        "question_type": "multi-choice",
+        "question_id": 169,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian walking across a parking lot?",
+        "answer": "No",
+        "image_path": "images/n015-2018-10-08-15-36-50+0800__CAM_FRONT__1538984238912460.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 170,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are visible in the driving scene?\n\nChoices: \nA. 0\nB. 1\nC. 2\nD. 3",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-36-50+0800__CAM_FRONT__1538984238912460.jpg",
+        "question_type": "multi-choice",
+        "question_id": 171,
+        "template_type": "count"
+    },
+    {
+        "question": "Where is the pedestrian located relative to the road in the provided driving scene?\n\nChoices: \nA. Walking on the road\nB. Crossing the road\nC. Walking on the pedestrian sidewalk\nD. Standing still",
+        "answer": "C",
+        "image_path": "images/n015-2018-10-08-15-36-50+0800__CAM_FRONT__1538984312412460.jpg",
+        "question_type": "multi-choice",
+        "question_id": 172,
+        "template_type": "object"
+    },
+    {
+        "question": "In the driving scene, where is the pedestrian located relative to the road?\n\nChoices:\nA. Walking on the road\nB. Walking on the sidewalk\nC. Standing on the grass\nD. Crossing the road",
+        "answer": "C",
+        "image_path": "images/n015-2018-10-08-15-36-50+0800__CAM_FRONT__1538984312412460.jpg",
+        "question_type": "multi-choice",
+        "question_id": 173,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the activity of the pedestrian in the driving scene?\n\nChoices:\nA. Crossing the road\nB. Standing on the sidewalk\nC. Walking towards the road\nD. Running on the pavement",
+        "answer": "C",
+        "image_path": "images/n015-2018-10-08-15-36-50+0800__CAM_FRONT__1538984312412460.jpg",
+        "question_type": "multi-choice",
+        "question_id": 174,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are visible in the driving scene?\n\nChoices: \nA. None  \nB. One  \nC. Two  \nD. Three",
+        "answer": "C",
+        "image_path": "images/n015-2018-10-08-15-36-50+0800__CAM_FRONT__1538984312412460.jpg",
+        "question_type": "multi-choice",
+        "question_id": 175,
+        "template_type": "count"
+    },
+    {
+        "question": "What object is the pedestrian holding in the image?\n\nChoices: \nA. A backpack \nB. A skateboard \nC. An umbrella \nD. A bicycle",
+        "answer": "C",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538984950904844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 176,
+        "template_type": "object"
+    },
+    {
+        "question": "Is there a person with an umbrella present in the scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538984950904844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 177,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the pedestrian doing in the driving scene?\n\nChoices:\nA. Walking across the road\nB. Standing on the sidewalk with an umbrella\nC. Running towards the street\nD. Cycling on the road",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538984950904844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 178,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there more than one pedestrian in the scene?",
+        "answer": "No",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538984950904844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 179,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the pedestrian doing in this scene?\n\nChoices:\nA. Crossing the road\nB. Walking down a staircase\nC. Standing still\nD. Riding a bicycle",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985013354844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 180,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is there one visible pedestrian in the scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985013354844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 181,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the person holding an umbrella?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985038404844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 182,
+        "template_type": "object"
+    },
+    {
+        "question": "Is there a person walking on the sidewalk?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985038404844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 183,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the person using an umbrella?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985038404844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 184,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are visible in the driving scene?\n\nChoices: \nA. 0 \nB. 1 \nC. 2 \nD. 3",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985038404844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 185,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the pedestrian doing in the scene?\nChoices: A. Walking a dog B. Using a cellphone C. Carrying groceries D. Riding a bicycle",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985055904844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 186,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the pedestrian in the scene doing?\n\nChoices:\nA. Walking towards the curb\nB. Sitting on a bench\nC. Crossing the street\nD. Riding a bicycle",
+        "answer": "A",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985055904844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 187,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the pedestrian doing in the image?\nChoices: A. Walking down the stairs B. Jogging on the sidewalk C. Standing still D. Crossing the street",
+        "answer": "A",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985055904844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 188,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are visible in the scene?\n\nChoices: \nA. 0 \nB. 1 \nC. 2 \nD. 3",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985055904844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 189,
+        "template_type": "count"
+    },
+    {
+        "question": "In the driving scene, what is the pedestrian doing?\n\nChoices: \nA. Crossing the street\nB. Standing on the sidewalk\nC. Walking towards a building\nD. Jogging",
+        "answer": "C",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985062354844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 190,
+        "template_type": "object"
+    },
+    {
+        "question": "Is there a person visible near the building entrance?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985062354844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 191,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the person doing in the image?\n\nChoices: \nA. Crossing the street\nB. Standing on the sidewalk\nC. Running across the road\nD. Riding a bicycle",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985062354844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 192,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there only one pedestrian visible in the scene?",
+        "answer": "No",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985062354844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 193,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the pedestrian doing in the driving scene?\n\nChoices: \nA. Standing still\nB. Crossing the street\nC. Sweeping the sidewalk\nD. Riding a bicycle",
+        "answer": "C",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_RIGHT__1538984833920339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 194,
+        "template_type": "object"
+    },
+    {
+        "question": "In the given driving scene, which detail correctly identifies the pedestrian present?  \nChoices:  \nA. The pedestrian is wearing a red vest.  \nB. The pedestrian is holding a sign.  \nC. The pedestrian is wearing a reflective vest.  \nD. The pedestrian is riding a bicycle.",
+        "answer": "C",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_RIGHT__1538984833920339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 195,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is there one pedestrian visible in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_RIGHT__1538984833920339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 196,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian holding an umbrella?",
+        "answer": "No",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_RIGHT__1538984975870339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 197,
+        "template_type": "object"
+    },
+    {
+        "question": "Is there a pedestrian present in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_RIGHT__1538984975870339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 198,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the pedestrian doing in the driving scene?\n\nChoices:\nA. Standing still on the sidewalk\nB. Walking along the sidewalk\nC. Crossing the street\nD. Running across the grass",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_RIGHT__1538984975870339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 199,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are present in the driving scene?\n\nChoices: \nA. 0  \nB. 1  \nC. 2  \nD. 3",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_RIGHT__1538984975870339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 200,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the person leaning against the wall holding an item in their hand?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT__1538985065362460.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 201,
+        "template_type": "object"
+    },
+    {
+        "question": "Is there a person present in the scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT__1538985065362460.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 202,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the person leaning against the wall standing still?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT__1538985065362460.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 203,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there more than one pedestrian in the image?",
+        "answer": "No",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT__1538985065362460.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 204,
+        "template_type": "count"
+    },
+    {
+        "question": "What mode of transportation is the person using? Choices: A. Walking B. Driving a car C. Riding a bicycle D. Skating",
+        "answer": "C",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_LEFT__1533151483154799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 205,
+        "template_type": "object"
+    },
+    {
+        "question": "'Is the cyclist resting on their bicycle?'",
+        "answer": "No",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_LEFT__1533151483154799.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 206,
+        "template_type": "presence"
+    },
+    {
+        "question": "'Is the person in the driving scene operating a motorcycle?'",
+        "answer": "No",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_LEFT__1533151483154799.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 207,
+        "template_type": "status"
+    },
+    {
+        "question": "What is the pedestrian most likely carrying?  \nChoices: A. An umbrella  \nB. A suitcase  \nC. A bag  \nD. A book",
+        "answer": "C",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_LEFT__1533151738904799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 208,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the current situation regarding pedestrians near the crosswalk? Choices: A. A pedestrian is waiting to cross the street. B. A pedestrian is crossing the street. C. There are no pedestrians in the vicinity. D. A pedestrian just crossed the street.",
+        "answer": "C",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_LEFT__1533151738904799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 209,
+        "template_type": "presence"
+    },
+    {
+        "question": "What action is the pedestrian likely taking at the crosswalk while the traffic signal is red? Choices: A. Running across the street B. Waiting at the curb C. Walking briskly B. Jaywalking",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_LEFT__1533151738904799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 210,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there at least one pedestrian in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_LEFT__1533151738904799.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 211,
+        "template_type": "count"
+    },
+    {
+        "question": "'Is the pedestrian walking towards the street?'",
+        "answer": "No",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_LEFT__1533151745404799.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 212,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are present in the driving scene? Choices: A. None B. One C. Two D. Three",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_LEFT__1533151745404799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 213,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian carrying a backpack while crossing the bridge?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_RIGHT__1533151591870482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 214,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the pedestrian walking on the sidewalk next to a bridge?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_RIGHT__1533151591870482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 215,
+        "template_type": "presence"
+    },
+    {
+        "question": "What feature typically indicates that a pedestrian path is safely separated from vehicle traffic? Choices: A. A painted line on the road B. A designated walkway with a barrier C. A pedestrian crossing sign D. A speed limit sign",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_RIGHT__1533151591870482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 216,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are present in the scene? Choices: A. None B. One C. Two D. Three",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_RIGHT__1533151591870482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 217,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian walking towards the red box?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_RIGHT__1533151615920482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 218,
+        "template_type": "object"
+    },
+    {
+        "question": "What activity is the person on the sidewalk likely engaged in? Choices: A. Running B. Shopping C. Sleeping D. Eating",
+        "answer": "A",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_RIGHT__1533151615920482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 219,
+        "template_type": "presence"
+    },
+    {
+        "question": "Where is the pedestrian located? Choices: A. In the street B. On the sidewalk C. In a park D. Inside a building",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_RIGHT__1533151615920482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 220,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there at least one pedestrian visible in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_RIGHT__1533151615920482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 221,
+        "template_type": "count"
+    },
+    {
+        "question": "Where is the pedestrian standing? Choices: A. On the sidewalk next to the market B. In the parking lot of the market C. On the street in front of the market D. Inside the market",
+        "answer": "C",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_RIGHT__1533151682170482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 222,
+        "template_type": "object"
+    },
+    {
+        "question": "How many pedestrians are currently on the sidewalk? Choices: A. One B. Two C. None D. Three",
+        "answer": "C",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_RIGHT__1533151682170482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 223,
+        "template_type": "presence"
+    },
+    {
+        "question": "'Is the pedestrian moving in a backward direction?'",
+        "answer": "No",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_RIGHT__1533151682170482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 224,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there at least one pedestrian visible in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-01-15-16-36-0400__CAM_FRONT_RIGHT__1533151682170482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 225,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the weather like for the pedestrian? Choices: A. Sunny B. Rainy C. Snowy D. Windy",
+        "answer": "A",
+        "image_path": "images/n008-2018-08-22-15-53-49-0400__CAM_FRONT_LEFT__1534968250504799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 226,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the pedestrian moving from one side of the street to the other?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-22-15-53-49-0400__CAM_FRONT_LEFT__1534968250504799.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 227,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian currently waiting at the curb to cross the street?",
+        "answer": "No",
+        "image_path": "images/n008-2018-08-22-15-53-49-0400__CAM_FRONT_LEFT__1534968250504799.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 228,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there at least one pedestrian visible in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-22-15-53-49-0400__CAM_FRONT_LEFT__1534968250504799.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 229,
+        "template_type": "count"
+    },
+    {
+        "question": "What type of object is the pedestrian likely holding while crossing the street? Choices: A. A backpack B. A pet dog C. A shopping bag D. A handrail",
+        "answer": "C",
+        "image_path": "images/n008-2018-08-22-15-53-49-0400__CAM_FRONT__1534967929412470.jpg",
+        "question_type": "multi-choice",
+        "question_id": 230,
+        "template_type": "object"
+    },
+    {
+        "question": "What action should a driver take when a pedestrian is present in the driving scene? Choices: A. Speed up to pass quickly B. Slow down and be prepared to stop C. Change lanes abruptly D. Ignore the pedestrian and continue driving",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-22-15-53-49-0400__CAM_FRONT__1534967929412470.jpg",
+        "question_type": "multi-choice",
+        "question_id": 231,
+        "template_type": "presence"
+    },
+    {
+        "question": "Why is the pedestrian not crossing the street? Choices: A. The pedestrian is waiting for the traffic light to change B. The pedestrian is distracted by their phone C. The pedestrian is walking on the sidewalk D. The pedestrian has already crossed the street",
+        "answer": "A",
+        "image_path": "images/n008-2018-08-22-15-53-49-0400__CAM_FRONT__1534967929412470.jpg",
+        "question_type": "multi-choice",
+        "question_id": 232,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are visible in the scene? Choices: A. None B. One C. Two D. Three",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-22-15-53-49-0400__CAM_FRONT__1534967929412470.jpg",
+        "question_type": "multi-choice",
+        "question_id": 233,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the person's current direction relative to the crosswalk? Choices: A. They are walking away from it. B. They are heading directly to it. C. They are walking parallel to it. D. They are standing still.",
+        "answer": "A",
+        "image_path": "images/n008-2018-08-22-15-53-49-0400__CAM_FRONT__1534968250512404.jpg",
+        "question_type": "multi-choice",
+        "question_id": 234,
+        "template_type": "object"
+    },
+    {
+        "question": "How many pedestrians are visible in the image? Choices: A. One B. Two C. None D. Three",
+        "answer": "C",
+        "image_path": "images/n008-2018-08-22-15-53-49-0400__CAM_FRONT__1534968250512404.jpg",
+        "question_type": "multi-choice",
+        "question_id": 235,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian walking on the road rather than the sidewalk?",
+        "answer": "No",
+        "image_path": "images/n008-2018-08-22-15-53-49-0400__CAM_FRONT__1534968250512404.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 236,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are present in the scene? Choices: A. None B. One C. Two D. Three",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-22-15-53-49-0400__CAM_FRONT__1534968250512404.jpg",
+        "question_type": "multi-choice",
+        "question_id": 237,
+        "template_type": "count"
+    },
+    {
+        "question": "What type of bag is the person on the sidewalk carrying? Choices: A. A backpack B. A grocery bag C. A messenger bag D. A suitcase",
+        "answer": "A",
+        "image_path": "images/n008-2018-08-28-16-43-51-0400__CAM_FRONT_RIGHT__1535489346620482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 238,
+        "template_type": "object"
+    },
+    {
+        "question": "What action might the pedestrian on the sidewalk be doing? Choices: A. Riding a bicycle B. Walking a dog C. Driving a car D. Taking a nap",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-28-16-43-51-0400__CAM_FRONT_RIGHT__1535489346620482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 239,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the pedestrian's action at the crosswalk? Choices: A. Crossing the street B. Waiting to cross the street C. Standing on the sidewalk D. Walking away from the crosswalk",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-28-16-43-51-0400__CAM_FRONT_RIGHT__1535489346620482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 240,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are present in the scene? Choices: A. None B. One C. Two D. Three",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-28-16-43-51-0400__CAM_FRONT_RIGHT__1535489346620482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 241,
+        "template_type": "count"
+    },
+    {
+        "question": "What action is the pedestrian likely to take next?  \nChoices: A. Stop at the curb  \nB. Begin walking towards the traffic  \nC. Enter the designated crosswalk  \nD. Turn around and walk away",
+        "answer": "C",
+        "image_path": "images/n008-2018-08-30-10-33-52-0400__CAM_FRONT_LEFT__1535639685104799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 242,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the pedestrian currently on the sidewalk?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-30-10-33-52-0400__CAM_FRONT_LEFT__1535639685104799.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 243,
+        "template_type": "presence"
+    },
+    {
+        "question": "'Is the pedestrian moving while crossing the street?'",
+        "answer": "No",
+        "image_path": "images/n008-2018-08-30-10-33-52-0400__CAM_FRONT_LEFT__1535639685104799.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 244,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there at least one pedestrian present in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-30-10-33-52-0400__CAM_FRONT_LEFT__1535639685104799.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 245,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian located on the sidewalk?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-30-10-33-52-0400__CAM_FRONT_LEFT__1535639744254799.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 246,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the pedestrian located on the sidewalk near a tree?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-30-10-33-52-0400__CAM_FRONT_LEFT__1535639744254799.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 247,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian currently on the sidewalk?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-30-10-33-52-0400__CAM_FRONT_LEFT__1535639744254799.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 248,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there exactly one pedestrian visible in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-30-10-33-52-0400__CAM_FRONT_LEFT__1535639744254799.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 249,
+        "template_type": "count"
+    },
+    {
+        "question": "What color is the bag that the pedestrian is carrying? Choices: A. Red B. Black C. Blue D. Green",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-30-15-31-50-0400__CAM_FRONT_RIGHT__1535657778920482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 250,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the person moving at a steady pace along the sidewalk?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-30-15-31-50-0400__CAM_FRONT_RIGHT__1535657778920482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 251,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there a single pedestrian crossing the road in this scene?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-30-15-31-50-0400__CAM_FRONT_RIGHT__1535657778920482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 252,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the traffic condition at the intersection? Choices: A. There are no pedestrians B. A pedestrian is crossing the street C. The lights are green for vehicles D. The road is closed for construction",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-31-11-37-23-0400__CAM_FRONT_LEFT__1535730290004799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 253,
+        "template_type": "presence"
+    },
+    {
+        "question": "Where is the pedestrian located while crossing the street? Choices: A. At a marked crosswalk B. In the middle of the street C. At a traffic light C. On the sidewalk",
+        "answer": "A",
+        "image_path": "images/n008-2018-08-31-11-37-23-0400__CAM_FRONT_LEFT__1535730290004799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 254,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are crossing the street in the scene? Choices: A. None B. One C. Two D. Three",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-31-11-37-23-0400__CAM_FRONT_LEFT__1535730290004799.jpg",
+        "question_type": "multi-choice",
+        "question_id": 255,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the likely activity happening on the sidewalk in the image? Choices: A. A cyclist riding by B. A pedestrian walking B. A car parked on the street D. A dog being walked",
+        "answer": "B",
+        "image_path": "images/n008-2018-08-31-11-37-23-0400__CAM_FRONT_RIGHT__1535730659420482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 256,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian currently on the sidewalk?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-31-11-37-23-0400__CAM_FRONT_RIGHT__1535730659420482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 257,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there at least one pedestrian in the image?",
+        "answer": "Yes",
+        "image_path": "images/n008-2018-08-31-11-37-23-0400__CAM_FRONT_RIGHT__1535730659420482.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 258,
+        "template_type": "count"
+    },
+    {
+        "question": "Where is the pedestrian likely standing if they are not on the sidewalk? Choices: A. In the road B. In a park C. At a bus stop D. In a building",
+        "answer": "A",
+        "image_path": "images/n008-2018-09-18-15-12-01-0400__CAM_FRONT_RIGHT__1537298218870482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 259,
+        "template_type": "object"
+    },
+    {
+        "question": "What action should the driver take when a pedestrian is present in the driving scene?  \nChoices: A. Speed up to pass quickly B. Slow down and prepare to stop C. Ignore the pedestrian D. Change lanes to avoid them",
+        "answer": "B",
+        "image_path": "images/n008-2018-09-18-15-12-01-0400__CAM_FRONT_RIGHT__1537298218870482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 260,
+        "template_type": "presence"
+    },
+    {
+        "question": "What action is the pedestrian likely about to take at the crosswalk? Choices: A. Run away B. Cross the street C. Sit down D. Turn around",
+        "answer": "B",
+        "image_path": "images/n008-2018-09-18-15-12-01-0400__CAM_FRONT_RIGHT__1537298218870482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 261,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians can be seen in the driving scene? Choices: A. None B. One C. Two D. Three",
+        "answer": "B",
+        "image_path": "images/n008-2018-09-18-15-12-01-0400__CAM_FRONT_RIGHT__1537298218870482.jpg",
+        "question_type": "multi-choice",
+        "question_id": 262,
+        "template_type": "count"
+    },
+    {
+        "question": "What type of bag is the pedestrian carrying? Choices: A. Backpack B. Handbag C. Grocery bag D. All of the above",
+        "answer": "D",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281836654844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 263,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the activity of the individual present in the scene? Choices: A. Running B. Bicycling C. Walking D. Sitting",
+        "answer": "C",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281836654844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 264,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is there at least one pedestrian visible in the image?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281836654844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 265,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian holding a cup in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281844504844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 266,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the pedestrian in danger by walking in the middle of the road?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281844504844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 267,
+        "template_type": "presence"
+    },
+    {
+        "question": "How many pedestrians are present in the driving scene? Choices: A. One B. Two C. None D. Three",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281844504844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 268,
+        "template_type": "count"
+    },
+    {
+        "question": "Is there a vehicle that is not adhering to parking regulations in the image?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281854104844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 269,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is there at least one pedestrian visible in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281854104844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 270,
+        "template_type": "count"
+    },
+    {
+        "question": "What type of object might the pedestrian be holding while crossing the street? Choices: A. An umbrella B. A bicycle C. A skateboard D. A briefcase",
+        "answer": "A",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281963754844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 271,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the pedestrian in the driving scene actively moving towards the other side of the road?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281963754844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 272,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there at least one pedestrian in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281963754844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 273,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the likely content of the bag that the pedestrian is carrying? Choices: A. A laptop B. Groceries C. A dog D. A book",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281552770341.jpg",
+        "question_type": "multi-choice",
+        "question_id": 274,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the pedestrian in the driving scene actively crossing the street?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281552770341.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 275,
+        "template_type": "presence"
+    },
+    {
+        "question": "Where is the pedestrian walking? Choices: A. On the road B. On the sidewalk C. In a park D. On a bicycle path",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281552770341.jpg",
+        "question_type": "multi-choice",
+        "question_id": 276,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are visible in the scene? Choices: A. None B. One C. Two D. Three",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281552770341.jpg",
+        "question_type": "multi-choice",
+        "question_id": 277,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian in the image holding a plastic bag in their left hand?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281553270339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 278,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the pedestrian located on a safe area away from moving vehicles?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281553270339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 279,
+        "template_type": "presence"
+    },
+    {
+        "question": "Where is the pedestrian walking if not on the sidewalk? Choices: A. In the street B. In a park C. On a crosswalk D. On a bike path",
+        "answer": "A",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281553270339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 280,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are present in the driving scene? Choices: A. None B. One C. Two D. Three",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281553270339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 281,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian likely to be on the sidewalk in the depicted driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281614770339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 282,
+        "template_type": "object"
+    },
+    {
+        "question": "Should a driver always be on the lookout for pedestrians when driving in urban areas?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281614770339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 283,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian currently stationary?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281614770339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 284,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are present in the driving scene? Choices: A. None B. One C. Two D. More than two",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281614770339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 285,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the most likely item the person is holding in their hands? Choices: A. A book B. A phone C. A ball D. A plate",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281844520339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 286,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the pedestrian stationary on the sidewalk?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281844520339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 287,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there at least one pedestrian visible in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281844520339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 288,
+        "template_type": "count"
+    },
+    {
+        "question": "What color is the shirt the pedestrian is wearing? Choices: A. Red B. Blue C. Green D. Yellow",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281442862460.jpg",
+        "question_type": "multi-choice",
+        "question_id": 289,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the status of pedestrian activity near the construction area? Choices: A. There is a pedestrian walking nearby. B. There are multiple pedestrians in the area. C. No pedestrians are present near the construction area. D. Pedestrians are advised to stay away.",
+        "answer": "C",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281442862460.jpg",
+        "question_type": "multi-choice",
+        "question_id": 290,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the pedestrian doing at the crosswalk? Choices: A. Waiting for the light B. Crossing the road C. Riding a bicycle D. Standing on the curb",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281442862460.jpg",
+        "question_type": "multi-choice",
+        "question_id": 291,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are present in the driving scene? Choices: A. None B. One C. Two D. Three",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281442862460.jpg",
+        "question_type": "multi-choice",
+        "question_id": 292,
+        "template_type": "count"
+    },
+    {
+        "question": "What mode of transportation is being used by the individual in the scene? Choices: A. Bicycle B. Car C. Scooter D. Skateboard",
+        "answer": "C",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281966262460.jpg",
+        "question_type": "multi-choice",
+        "question_id": 293,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the pedestrian likely waiting for a bus at the bus stop?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281966262460.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 294,
+        "template_type": "status"
+    },
+    {
+        "question": "In the driving scene, what action is the pedestrian most likely to be taking? Choices: A. Crossing the street B. Standing on the sidewalk C. Riding a bicycle D. Waiting for a bus",
+        "answer": "A",
+        "image_path": "images/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281966262460.jpg",
+        "question_type": "multi-choice",
+        "question_id": 295,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the situation at the entrance of the building? Choices: A. There is a busy parking lot B. There is a pedestrian near the entrance C. The entrance is closed D. There are construction workers at the entrance",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-18-11-41-49+0800__CAM_FRONT_LEFT__1531885617904844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 296,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian currently inside a building?",
+        "answer": "No",
+        "image_path": "images/n015-2018-07-18-11-41-49+0800__CAM_FRONT_LEFT__1531885617904844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 297,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there at least one pedestrian visible in the image?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-18-11-41-49+0800__CAM_FRONT_LEFT__1531885617904844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 298,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian moving forward?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-18-11-41-49+0800__CAM_FRONT_LEFT__1531885771904844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 299,
+        "template_type": "object"
+    },
+    {
+        "question": "What action is the pedestrian most likely engaged in? Choices: A. Running B. Resting C. Walking D. Cycling",
+        "answer": "C",
+        "image_path": "images/n015-2018-07-18-11-41-49+0800__CAM_FRONT_LEFT__1531885771904844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 300,
+        "template_type": "presence"
+    },
+    {
+        "question": "Where is the pedestrian crossing the street? Choices: A. At the designated crossing area B. In the middle of the street C. On a bridge D. At a traffic light",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-18-11-41-49+0800__CAM_FRONT_LEFT__1531885771904844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 301,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there at least one pedestrian in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-18-11-41-49+0800__CAM_FRONT_LEFT__1531885771904844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 302,
+        "template_type": "count"
+    },
+    {
+        "question": "Where is the pedestrian most likely walking? Choices: A. In the street B. On the sidewalk C. In a park D. In a parking lot",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-18-11-41-49+0800__CAM_FRONT__1531885614012462.jpg",
+        "question_type": "multi-choice",
+        "question_id": 303,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the driver required to be cautious of pedestrians on the sidewalk?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-18-11-41-49+0800__CAM_FRONT__1531885614012462.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 304,
+        "template_type": "presence"
+    },
+    {
+        "question": "Where is the pedestrian likely standing? Choices: A. In the street B. On the sidewalk C. In a park D. On a bike path",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-18-11-41-49+0800__CAM_FRONT__1531885614012462.jpg",
+        "question_type": "multi-choice",
+        "question_id": 305,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are visible in the scene? Choices: A. None B. One C. Several D. Too many to count",
+        "answer": "C",
+        "image_path": "images/n015-2018-07-18-11-41-49+0800__CAM_FRONT__1531885614012462.jpg",
+        "question_type": "multi-choice",
+        "question_id": 306,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian moving from one side of the street to the other?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-24-10-42-41+0800__CAM_FRONT_RIGHT__1532400516170339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 307,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the presence of in the image? Choices: A. A bicycle B. A pedestrian C. A car D. A building",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-24-10-42-41+0800__CAM_FRONT_RIGHT__1532400516170339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 308,
+        "template_type": "presence"
+    },
+    {
+        "question": "Where is the pedestrian likely standing? Choices: A. In the middle of the street B. On a raised curb or sidewalk C. On a bicycle lane D. At the edge of a parking lot",
+        "answer": "B",
+        "image_path": "images/n015-2018-07-24-10-42-41+0800__CAM_FRONT_RIGHT__1532400516170339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 309,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there at least one pedestrian in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-07-24-10-42-41+0800__CAM_FRONT_RIGHT__1532400516170339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 310,
+        "template_type": "count"
+    },
+    {
+        "question": "Where is the pedestrian located? Choices: A. On the road B. On the sidewalk C. In a park D. In a building",
+        "answer": "A",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201472420339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 311,
+        "template_type": "object"
+    },
+    {
+        "question": "What type of activity might the pedestrian in the scene be engaged in? Choices: A. Riding a bicycle B. Walking a dog C. Playing soccer D. Driving a car",
+        "answer": "B",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201472420339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 312,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian waiting at the curb? Choices: A. Yes, they are waiting. B. No, they are crossing. C. Yes, they are walking their dog. D. No, they are sitting on a bench.",
+        "answer": "A",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201472420339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 313,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are present in the scene? Choices: A. None B. One C. Two D. Three",
+        "answer": "B",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201472420339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 314,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian in the driving scene moving?",
+        "answer": "No",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201479420339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 315,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the pedestrian located on the sidewalk without moving?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201479420339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 316,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian moving in the direction of the car?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201479420339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 317,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are present in the scene? Choices: A. None B. One C. Two D. Three",
+        "answer": "B",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201479420339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 318,
+        "template_type": "count"
+    },
+    {
+        "question": "Where is the pedestrian walking? Choices: A. On the sidewalk B. In a parking lot C. In the street D. On a crosswalk",
+        "answer": "C",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201590020339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 319,
+        "template_type": "object"
+    },
+    {
+        "question": "What is likely to happen if a pedestrian is standing near the traffic light? Choices: A. The pedestrian will cross the street safely. B. The pedestrian will never cross the street. C. The pedestrian will block traffic. D. The pedestrian will call for help.",
+        "answer": "A",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201590020339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 320,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian at a crosswalk waiting to cross the street?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201590020339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 321,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there at least one pedestrian visible in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201590020339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 322,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the pedestrian doing on the side of the road? Choices: A. Running across the street B. Waiting on the curb C. Riding a bicycle D. Sitting on the sidewalk",
+        "answer": "B",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201735920339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 323,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the likely activity of the person standing on the sidewalk? Choices: A. Waiting for a bus B. Riding a bicycle C. Skating on the sidewalk D. Walking a dog",
+        "answer": "A",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201735920339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 324,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian preparing to cross the road?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201735920339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 325,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there at least one pedestrian visible in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201735920339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 326,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian actively using the crosswalk?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201740520339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 327,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the action of the pedestrian in the driving scene? Choices: A. Running on the sidewalk B. Crossing the street C. Riding a bicycle D. Waiting at the bus stop",
+        "answer": "B",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201740520339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 328,
+        "template_type": "presence"
+    },
+    {
+        "question": "Where is the pedestrian crossing the street? Choices: A. At a red light B. In the middle of the street C. At a crosswalk D. On the sidewalk",
+        "answer": "C",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201740520339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 329,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there a single pedestrian crossing the street at the crosswalk?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201740520339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 330,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian actively moving while crossing the street?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201743920339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 331,
+        "template_type": "object"
+    },
+    {
+        "question": "What action is being performed by the pedestrian in the image? Choices: A. Running across the street B. Standing on the sidewalk C. Crossing the street D. Sitting on a bench",
+        "answer": "C",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201743920339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 332,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian moving in a designated area while the pedestrian light is green?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201743920339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 333,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are present in the driving scene? Choices: A. None B. One C. Two D. Three",
+        "answer": "B",
+        "image_path": "images/n015-2018-08-02-17-16-37+0800__CAM_FRONT_RIGHT__1533201743920339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 334,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the person wearing safety gear while using a device?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_LEFT__1537852909004844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 335,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the person in the image standing still while using their phone?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_LEFT__1537852909004844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 336,
+        "template_type": "presence"
+    },
+    {
+        "question": "What type of activity is the person likely engaged in while wearing a helmet? Choices: A. Cooking B. Riding a bicycle C. Playing chess D. Reading a book",
+        "answer": "B",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_LEFT__1537852909004844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 337,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are present in the image? Choices: A. One B. Two or more C. None D. Only a silhouette",
+        "answer": "B",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_LEFT__1537852909004844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 338,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian standing next to a large tree?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_LEFT__1537852911404844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 339,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the likely activity of the person in the scene? Choices: A. Running B. Sitting C. Walking D. Jumping",
+        "answer": "C",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_LEFT__1537852911404844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 340,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is there at least one pedestrian in the image?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_LEFT__1537852911404844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 341,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian walking on a path next to the road?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_LEFT__1537852915354844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 342,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the role of the pedestrian in the image? Choices: A. They are walking on a crosswalk B. They are riding a bicycle C. They are sitting on a bench D. They are driving a car",
+        "answer": "A",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_LEFT__1537852915354844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 343,
+        "template_type": "presence"
+    },
+    {
+        "question": "What action should a driver take when they see a pedestrian on the sidewalk? Choices: A. Speed up to pass quickly B. Slow down and be prepared to stop C. Ignore the pedestrian D. Change lanes immediately",
+        "answer": "B",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_RIGHT__1537852911420339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 344,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian moving along the sidewalk?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_RIGHT__1537852911420339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 345,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are present in the driving scene? Choices: A. None B. One C. Two D. Three",
+        "answer": "B",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_RIGHT__1537852911420339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 346,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the pedestrian doing in the scene? Choices: A. Waiting on the sidewalk B. Crossing a street C. Jogging down the road D. Sitting on a bench",
+        "answer": "A",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_RIGHT__1537852955120339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 347,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the pedestrian moving from one side of the road to the other?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_RIGHT__1537852955120339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 348,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian actively moving in the direction of the street?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_RIGHT__1537852955120339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 349,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are present in the driving scene? Choices: A. None B. One C. Two D. Three",
+        "answer": "B",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT_RIGHT__1537852955120339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 350,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian likely a student or someone going to work?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT__1537852917362460.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 351,
+        "template_type": "object"
+    },
+    {
+        "question": "Is there a risk of a collision due to a vehicle nearing an intersection in this driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT__1537852917362460.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 352,
+        "template_type": "presence"
+    },
+    {
+        "question": "Where is the person located at present? Choices: A. In a park B. On the sidewalk C. Inside a building D. On the road",
+        "answer": "B",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT__1537852917362460.jpg",
+        "question_type": "multi-choice",
+        "question_id": 353,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are present in the driving scene? Choices: A. None B. One C. Two D. Three",
+        "answer": "B",
+        "image_path": "images/n015-2018-09-25-13-17-43+0800__CAM_FRONT__1537852917362460.jpg",
+        "question_type": "multi-choice",
+        "question_id": 354,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the person carrying something used for carrying groceries?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-02-10-50-40+0800__CAM_FRONT_LEFT__1538448745504844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 355,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the activity of the person observed on the sidewalk? Choices: A. Riding a bicycle B. Walking C. Skating D. Running",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-02-10-50-40+0800__CAM_FRONT_LEFT__1538448745504844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 356,
+        "template_type": "presence"
+    },
+    {
+        "question": "What type of surface is the pedestrian walking on? Choices: A. Grass B. Dirt C. Paved pathway D. Sand",
+        "answer": "C",
+        "image_path": "images/n015-2018-10-02-10-50-40+0800__CAM_FRONT_LEFT__1538448745504844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 357,
+        "template_type": "status"
+    },
+    {
+        "question": "Are there any visible pedestrians in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-02-10-50-40+0800__CAM_FRONT_LEFT__1538448745504844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 358,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian standing still at a bus stop?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-02-10-50-40+0800__CAM_FRONT_LEFT__1538448852104844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 359,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the person resting while waiting for the bus?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-02-10-50-40+0800__CAM_FRONT_LEFT__1538448852104844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 360,
+        "template_type": "presence"
+    },
+    {
+        "question": "What type of surface is the pedestrian predominantly walking on? Choices: A. Grass B. Gravel C. Paved area D. Sand",
+        "answer": "C",
+        "image_path": "images/n015-2018-10-08-15-36-50+0800__CAM_FRONT_LEFT__1538984235404844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 361,
+        "template_type": "object"
+    },
+    {
+        "question": "How many pedestrians are visible in the scene? Choices: A. None B. One C. Two D. Three",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-36-50+0800__CAM_FRONT_LEFT__1538984235404844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 362,
+        "template_type": "presence"
+    },
+    {
+        "question": "Where is the pedestrian most likely walking in the image? Choices: A. On the road B. On a bicycle lane C. On a pedestrian pathway D. On a private property",
+        "answer": "C",
+        "image_path": "images/n015-2018-10-08-15-36-50+0800__CAM_FRONT_LEFT__1538984235404844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 363,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there at least one pedestrian visible in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-36-50+0800__CAM_FRONT_LEFT__1538984235404844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 364,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the person in the blue shirt and beige pants moving on foot?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-36-50+0800__CAM_FRONT__1538984238912460.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 365,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the pedestrian engaged in any form of movement in this driving scene?",
+        "answer": "No",
+        "image_path": "images/n015-2018-10-08-15-36-50+0800__CAM_FRONT__1538984238912460.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 366,
+        "template_type": "presence"
+    },
+    {
+        "question": "What activity is the pedestrian likely engaged in if they are not walking across a parking lot? Choices: A. Sitting on a bench B. Riding a bicycle C. Drinking coffee D. Running on a track",
+        "answer": "A",
+        "image_path": "images/n015-2018-10-08-15-36-50+0800__CAM_FRONT__1538984238912460.jpg",
+        "question_type": "multi-choice",
+        "question_id": 367,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there at least one pedestrian visible in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-36-50+0800__CAM_FRONT__1538984238912460.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 368,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian located on the sidewalk in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-36-50+0800__CAM_FRONT__1538984312412460.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 369,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the pedestrian located on the grass near the road?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-36-50+0800__CAM_FRONT__1538984312412460.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 370,
+        "template_type": "presence"
+    },
+    {
+        "question": "Are there exactly two pedestrians visible in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-36-50+0800__CAM_FRONT__1538984312412460.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 371,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian using the object to protect themselves from the rain?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538984950904844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 372,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the weather like in the scene where a person with an umbrella is present? Choices: A. Sunny and clear B. Rainy or drizzly C. Snowy and cold D. Windy with clear skies",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538984950904844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 373,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian stationary on the sidewalk?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538984950904844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 374,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are present in the scene? Choices: A. None B. One C. Two D. Three",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538984950904844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 375,
+        "template_type": "count"
+    },
+    {
+        "question": "What type of object is the pedestrian likely holding while walking? Choices: A. A shopping bag B. A smartphone C. A dog leash D. All of the above",
+        "answer": "D",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985013354844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 376,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the pedestrian using stairs in this scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985013354844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 377,
+        "template_type": "presence"
+    },
+    {
+        "question": "What action is the person currently performing? Choices: A. Running up the stairs B. Walking down the stairs C. Sitting on a bench D. Climbing a hill",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985013354844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 378,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are present in the scene? Choices: A. None B. One C. Two D. Three",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985013354844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 379,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the likely weather condition if a person is holding an umbrella? Choices: A. Sunny and clear B. Rainy C. Snowy D. Windy",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985038404844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 380,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the activity being performed by the individual on the sidewalk? Choices: A. Running B. Walking C. Biking D. Skating",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985038404844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 381,
+        "template_type": "presence"
+    },
+    {
+        "question": "What might the weather be like for the person using an umbrella? Choices: A. Snowy and cold B. Sunny and clear C. Rainy and wet D. Windy and dry",
+        "answer": "C",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985038404844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 382,
+        "template_type": "status"
+    },
+    {
+        "question": "Is the pedestrian distracted while using a cellphone?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985055904844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 383,
+        "template_type": "object"
+    },
+    {
+        "question": "Is the pedestrian moving in the direction of the sidewalk?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985055904844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 384,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian descending a staircase?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985055904844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 385,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there at least one pedestrian visible in the scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985055904844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 386,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the likely activity of the person near the building entrance? Choices: A. Waiting for someone B. Walking away from the building C. Taking a picture of the building D. Leaving the area",
+        "answer": "A",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985062354844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 387,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the person stationary on the sidewalk?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985062354844.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 388,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians are visible in the scene? Choices: A. One B. Two C. Three D. More than three",
+        "answer": "D",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_LEFT__1538985062354844.jpg",
+        "question_type": "multi-choice",
+        "question_id": 389,
+        "template_type": "count"
+    },
+    {
+        "question": "Is the pedestrian involved in any activity related to cleaning the area?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_RIGHT__1538984833920339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 390,
+        "template_type": "object"
+    },
+    {
+        "question": "What item of clothing is the pedestrian wearing that enhances their visibility? Choices: A. A winter coat B. A high-visibility vest C. A denim jacket D. A hoodie",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_RIGHT__1538984833920339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 391,
+        "template_type": "status"
+    },
+    {
+        "question": "How many pedestrians can be seen in the driving scene? Choices: A. None B. One C. Two D. Three",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_RIGHT__1538984833920339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 392,
+        "template_type": "count"
+    },
+    {
+        "question": "What is the weather condition if the pedestrian is not holding an umbrella? Choices: A. It is snowing B. It is sunny C. It is raining D. It is foggy",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_RIGHT__1538984975870339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 393,
+        "template_type": "object"
+    },
+    {
+        "question": "What should the driver do when a pedestrian is present in the driving scene? Choices: A. Speed up to pass quickly B. Slow down and yield to the pedestrian C. Honk the horn aggressively D. Ignore the pedestrian and continue driving fast",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_RIGHT__1538984975870339.jpg",
+        "question_type": "multi-choice",
+        "question_id": 394,
+        "template_type": "presence"
+    },
+    {
+        "question": "Is the pedestrian moving forward along the sidewalk?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_RIGHT__1538984975870339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 395,
+        "template_type": "status"
+    },
+    {
+        "question": "Is there one pedestrian visible in the driving scene?",
+        "answer": "Yes",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT_RIGHT__1538984975870339.jpg",
+        "question_type": "yes-or-no",
+        "question_id": 396,
+        "template_type": "count"
+    },
+    {
+        "question": "What item is the person leaning against the wall holding in their hand? Choices: A. A book B. A drink C. A phone D. A bag",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT__1538985065362460.jpg",
+        "question_type": "multi-choice",
+        "question_id": 397,
+        "template_type": "object"
+    },
+    {
+        "question": "What is the relationship of the person present in the scene to the situation? Choices: A. They are a bystander. B. They are the main character. C. They are an authority figure. D. They are a friend.",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT__1538985065362460.jpg",
+        "question_type": "multi-choice",
+        "question_id": 398,
+        "template_type": "presence"
+    },
+    {
+        "question": "What is the person's posture while leaning against the wall? Choices: A. Sitting down B. Standing still C. Lying down D. Walking briskly",
+        "answer": "B",
+        "image_path": "images/n015-2018-10-08-15-44-23+0800__CAM_FRONT__1538985065362460.jpg",
+        "question_type": "multi-choice",
+        "question_id": 399,
+        "template_type": "status"
+    }
+]
