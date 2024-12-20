@@ -16,7 +16,7 @@
 
 **AutoTrust** is a groundbreaking benchmark designed to assess the trustworthiness of DriveVLMs. This work aims to enhance public safety by ensuring DriveVLMs operate reliably across critical dimensions.
 
-## Key Highlights:
+### Key Highlights:
 
 - **Comprehensive Evaluation:** Examines DriveVLMs across five pillars: Trustfulness, Safety, Robustness, Privacy, and Fairness, over 10k unique scenes and 18k Q&A pairs constructed to evaluate diverse driving scenarios.
 
