@@ -489,3 +489,40 @@ hr {
     padding: 0px 0px;
   }
 }
+
+
+.team-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.team-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.universities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.university img {
+  width: auto;
+  /* Adjust based on your needs */
+  height: 100px;
+}
+
+.author-link {
+  color: inherit;
+  /* Inherits the color from the parent element */
+  text-decoration: none;
+  /* Removes underline */
+}
+
+.author-link:hover {
+  text-decoration: underline;
+  /* Adds underline on hover for better user experience */
+}
