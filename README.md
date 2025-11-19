@@ -100,13 +100,9 @@ def _make_causal_mask(
 
 
 ## Dataset
-Download the raw image files from the following sources:
-- [Nuscenes](https://www.nuscenes.org/nuscenes#download)
-- [DriveLM-Nuscenes](https://huggingface.co/datasets/OpenDriveLab/DriveLM/blob/main/drivelm_nus_imgs_val.zip)
-- [LingoQA](https://drive.google.com/file/d/1U5tBTZjw0rH9ID1JuuWsOmIp2HNvQvQo/view?usp=drive_link)
-- [CoVLA](https://drive.google.com/drive/folders/17kMdqza6Q6ueWyDpxSIVEC8ZW3lTxtVI?usp=drive_link)
+Download the raw image files from [here](https://drive.google.com/file/d/1Kqcc-3SvzJZr7J2Du3zpeDAXa6ZgsNzw/view?usp=sharing).
 
-Once downloaded, unzip the files into your designated directory `[path-to-image]`.
+Once downloaded, unzip the files into your designated directory `[dir-of-downloaded-dataset]`.
 
 ## Model
 ### Llava
@@ -142,10 +138,55 @@ For evaluating factuality of the `llava-v1.6-mistral-7b` on `DriveLM-NuScenes`:
 python main.py \
     --task factuality \
     --model-path  liuhaotian/llava-v1.6-mistral-7b \
-    --image-folder [images-folder-of-nuscence] \
+    --image-folder [dir-of-downloaded-dataset]/DriveLM \
     --question-file ./qa-pairs/trustfulness/drivelm.json \
     --answers-file [factuality-output-dir]
 ```
+
+For evaluating factuality of the `llava-v1.6-mistral-7b` on `NuScenes-QA`:
+
+```
+python main.py \
+    --task factuality \
+    --model-path  liuhaotian/llava-v1.6-mistral-7b \
+    --image-folder [dir-of-downloaded-dataset]/NuScenesMQA \
+    --question-file ./qa-pairs/trustfulness/nuscene_qa_English.json \
+    --answers-file [factuality-output-dir]
+```
+
+For evaluating factuality of the `llava-v1.6-mistral-7b` on `NuScenes-MQA`:
+
+```
+python main.py \
+    --task factuality \
+    --model-path  liuhaotian/llava-v1.6-mistral-7b \
+    --image-folder [dir-of-downloaded-dataset]/NuScenesMQA \
+    --question-file ./qa-pairs/trustfulness/nuscene_mqa.json \
+    --answers-file [factuality-output-dir]
+```
+
+For evaluating factuality of the `llava-v1.6-mistral-7b` on `LingoQA`:
+
+```
+python main.py \
+    --task factuality \
+    --model-path  liuhaotian/llava-v1.6-mistral-7b \
+    --image-folder [dir-of-downloaded-dataset]/LingoQA \
+    --question-file ./qa-pairs/trustfulness/lingoqa.json \
+    --answers-file [factuality-output-dir]
+```
+
+For evaluating factuality of the `llava-v1.6-mistral-7b` on `CoVLA`:
+
+```
+python main.py \
+    --task factuality \
+    --model-path  liuhaotian/llava-v1.6-mistral-7b \
+    --image-folder [dir-of-downloaded-dataset]/CoVLA \
+    --question-file ./qa-pairs/trustfulness/covla.json \
+    --answers-file [factuality-output-dir]
+```
+
 
 #### Uncertainty
 For evaluating uncertainty of the `llava-v1.6-mistral-7b` on `DriveLM-NuScenes`:
@@ -157,6 +198,9 @@ python main.py \
     --question-file [factuality-output-dir] \
     --answers-file [uncertainty-output-dir]
 ```
+
+The evaluations on the remaining datasets follow the same rationale as outlined above for `DriveLM-NuScenes`.
+
 ### Safety
 For evaluating the performance of the `llava-v1.6-mistral-7b` on `DriveLM-NuScenes` under `black_box_attack`, `misinformation`,  `misinstruction`, or `white_box_attack`:
 ```
@@ -164,7 +208,7 @@ python main.py \
     --task [black_box_attack/misinformation/misinstruction/white_box_attack] \
     --model-path  liuhaotian/llava-v1.6-mistral-7b \
     --dataset DriveLM \
-    --image-folder [images-folder-of-nuscence] \
+    --image-folder [dir-of-downloaded-dataset]/DriveLM  \
     --question-file ./qa-pairs/trustfulness/drivelm.json \
     --answers-file [safety-output-dir] \
     --gt-file ./qa-pairs/trustfulness/drivelm.json
@@ -176,8 +220,28 @@ For evaluating the robutsness of the `llava-v1.6-mistral-7b` on `DriveLM-NuScene
 python main.py \
     --task [robustness_acc/robustness_abs] \
     --model-path  liuhaotian/llava-v1.6-mistral-7b \
-    --image-folder [images-folder-of-nuscence] \
+    --image-folder [dir-of-downloaded-dataset]/DriveLM  \
     --question-file ./qa-pairs/robustness/[qa-file] \
+    --answers-file [robutsness-output-dir]
+```
+
+For evaluating the robutsness of the `llava-v1.6-mistral-7b` on `DriveLM-NuScenes` in the visual domain (long tail driving scenarios):
+```
+python main.py \
+    --task [robustness_acc/robustness_abs] \
+    --model-path  liuhaotian/llava-v1.6-mistral-7b \
+    --image-folder [dir-of-downloaded-dataset]/ood_dataset/VLM_OOD_data_2024  \
+    --question-file [dir-of-downloaded-dataset]/ood_dataset/OOD_QA.json \
+    --answers-file [robutsness-output-dir]
+```
+
+For evaluating the robutsness of the `llava-v1.6-mistral-7b` on `DriveLM-NuScenes` in the visual domain (noisy image input):
+```
+python main.py \
+    --task [robustness_acc/robustness_abs] \
+    --model-path  liuhaotian/llava-v1.6-mistral-7b \
+    --image-folder [dir-of-downloaded-dataset]/ood_dataset/Noisy_data/DriveLM_Noise  \
+    --question-file ./qa-pairs/trustfulness/drivelm.json \
     --answers-file [robutsness-output-dir]
 ```
 
@@ -187,7 +251,7 @@ For evaluating the performance of the `llava-v1.6-mistral-7b` on `identity_indiv
 python main.py \
     --task  [identity_individual/identity_vehicle/location]\
     --model-path  liuhaotian/llava-v1.6-mistral-7b \
-    --image-folder [images-folder-of-nuscence] \
+    --image-folder [dir-of-downloaded-dataset]/DriveLM  \
     --question-file ./qa-pairs/private/[qa-file] \
     --answers-file [privacy-output-dir]
 ```
@@ -200,7 +264,7 @@ For evaluating the performance of the `llava-v1.6-mistral-7b` on ego fairness:
 python main.py \
     --task  [driver_gender/driver_race/driver_age] \
     --model-path  liuhaotian/llava-v1.6-mistral-7b \
-    --image-folder [images-folder-of-nuscence] \
+    --image-folder [dir-of-downloaded-dataset]/DriveLM  \
     --question-file ./qa-pairs/trustfulness/drivelm.json \
     --pattern-file ./qa-pairs/fairness/vehicle_qa.json \
     --answers-file [fairness-output-dir] \
@@ -213,7 +277,7 @@ For evaluating the performance of the `llava-v1.6-mistral-7b` on scene fairness`
 python main.py \
     --task scene \
     --model-path  liuhaotian/llava-v1.6-mistral-7b \
-    --image-folder [images-folder-of-nuscence] \
+    --image-folder [dir-of-downloaded-dataset]/DriveLM  \
     --question-file ./qa-pairs/fairness/[pedestrian_qa/vehicle_qa].json \
     --answers-file [fairness-output-dir] 
 ```
