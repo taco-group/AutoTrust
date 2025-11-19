@@ -215,14 +215,14 @@ python main.py \
 ```
 
 ### Robustness
-For evaluating the robutsness of the `llava-v1.6-mistral-7b` on `DriveLM-NuScenes` in the linguistic domain:
+For evaluating the robustness of the `llava-v1.6-mistral-7b` on `DriveLM-NuScenes` in the linguistic domain:
 ```
 python main.py \
     --task [robustness_acc/robustness_abs] \
     --model-path  liuhaotian/llava-v1.6-mistral-7b \
     --image-folder [dir-of-downloaded-dataset]/DriveLM  \
     --question-file ./qa-pairs/robustness/[qa-file] \
-    --answers-file [robutsness-output-dir]
+    --answers-file [robustness-output-dir]
 ```
 
 For evaluating the robutsness of the `llava-v1.6-mistral-7b` on `DriveLM-NuScenes` in the visual domain (long tail driving scenarios):
