@@ -30,6 +30,8 @@
 - **Adversarial Vulnerabilities:** Identifies significant weaknesses in privacy protection, bias, and resilience to attacks, demanding urgent attention.
 
 ### News
+- **[2025/11/19]** 🎉 Our AutoTrust paper has been accepted to TMLR 2025.
+
 - **[2024/12/19]** 🔥We released **AutoTrust**, a groundbreaking benchmark designed to assess the trustworthiness of DriveVLMs.. Explore our [paper](https://arxiv.org/abs/2412.15206) and [website](https://taco-group.github.io/AutoTrust/) for more details.
 
 ### Table of Contents
